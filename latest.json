@@ -1,0 +1,7 @@
+{
+  "version": "0.1.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.1.1-Setup.exe",
+  "size": 34927163,
+  "sha256": "ca4dc33d031d9b9552b4ce82d190fd1e216b824b0cc85c15dd4a025e0b706989",
+  "notes": "First build with the in-game updater. Multiplayer fixes: party members can use potions, shops and the bank; short lag spikes no longer reset the boss; the ready check waits until everyone is back in town; fallen members watch a living party member."
+}
