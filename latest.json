@@ -1,7 +1,7 @@
 {
-  "version": "0.1.4",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.1.4-Setup.exe",
-  "size": 35079246,
-  "sha256": "c02e7e3385bab332034725fb9be4796750e275d8498130460459d00d774ca0c5",
-  "notes": "Party: revive a fallen member (hold E / A next to them for 3 s), trade items and gold (Party window > Trade), the host's level now shows correctly for everyone. Ranger Poison upgrade poisons with every shot. D-pad inside windows only moves the selection (B closes). Multiplayer needs 0.1.4 on every PC."
+  "version": "0.1.5",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.1.5-Setup.exe",
+  "size": 35091593,
+  "sha256": "57c5c9b8e4712b4e64e93f53fb2b74ac4aae5f8bbc0485cdaf40dfbfca7cdcff",
+  "notes": "All classes walk at the same speed. New weapons and gear of party members show at once. Inventory: first click shows the comparison, second click equips or drinks; move items by dragging or with F / gamepad X. Save & Main Menu now leaves the party (the host closes it). Update on every PC for multiplayer."
 }
