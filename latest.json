@@ -1,7 +1,7 @@
 {
-  "version": "0.1.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.1.1-Setup.exe",
-  "size": 34927163,
-  "sha256": "ca4dc33d031d9b9552b4ce82d190fd1e216b824b0cc85c15dd4a025e0b706989",
-  "notes": "First build with the in-game updater. Multiplayer fixes: party members can use potions, shops and the bank; short lag spikes no longer reset the boss; the ready check waits until everyone is back in town; fallen members watch a living party member."
+  "version": "0.1.2",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.1.2-Setup.exe",
+  "size": 35011844,
+  "sha256": "2410dde972670a4750017c989bee288746b38407fc85cf1bd2e6b23b1f61b512",
+  "notes": "Specializations: pick your class, then a specialization (more coming soon). Every class has a dash (Shift / RB) and a second skill key (right click / K / LT). New settings with Audio, Display, Keyboard & Mouse and Gamepad tabs; all keys can be rebound. Multiplayer needs 0.1.2 on every PC."
 }
