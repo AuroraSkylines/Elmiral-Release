@@ -1,7 +1,7 @@
 {
-  "version": "0.1.5",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.1.5-Setup.exe",
-  "size": 35091593,
-  "sha256": "57c5c9b8e4712b4e64e93f53fb2b74ac4aae5f8bbc0485cdaf40dfbfca7cdcff",
-  "notes": "All classes walk at the same speed. New weapons and gear of party members show at once. Inventory: first click shows the comparison, second click equips or drinks; move items by dragging or with F / gamepad X. Save & Main Menu now leaves the party (the host closes it). Update on every PC for multiplayer."
+  "version": "0.2.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.2.0-Setup.exe",
+  "size": 35225473,
+  "sha256": "c3d5b649a3d44cee2153ff27441a221b7971ce25288e701733c38fe4af928fd4",
+  "notes": "Big update: 12 class specializations with their own skills and weapons (existing characters choose once). New dungeon Shifting Depths: a new layout on every entry, its own basalt-and-crystal look, a plain chest every run and sometimes a rare chest, and the new boss Stormheart with chain lightning and a lightning wave. Update on every PC for multiplayer (0.1.5 cannot join 0.2.0)."
 }
