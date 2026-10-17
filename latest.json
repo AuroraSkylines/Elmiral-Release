@@ -1,7 +1,7 @@
 {
-  "version": "0.4.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.4.1-Setup.exe",
-  "size": 35402172,
-  "sha256": "86a68c76173f1e0993ea6405a81a60e04c2fdeefdf1e3b7a22a2b3796ef8152a",
-  "notes": "Combat balancing: no knockback on normal hits, slower basic attacks, bigger mage bolts and smaller arrows, foes easier to hit, charged skills fire on release, narrower fans, only Marksman arrows pierce, shorter cooldowns, Shield Bash charge and stun, Cripple lunge with a new effect. Plays together with 0.4.0, but update both PCs."
+  "version": "0.5.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.5.0-Setup.exe",
+  "size": 35420068,
+  "sha256": "89d870b9e0487b87b670b32ac92948ca4804fc0e6154508ee8a8edfc77d4b58d",
+  "notes": "Smooth aim: the aim arrow always follows your mouse or stick, attacks turn with it until they land, and held attacks go where it points. Bigger yellow aim arrow with your own color, size, distance and opacity (new Aim & Cursor settings), Elmiral's own mouse pointer and gamepad dead zones. Update on every PC for multiplayer (0.4.x cannot join 0.5.0)."
 }
