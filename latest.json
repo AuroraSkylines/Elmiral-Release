@@ -1,7 +1,7 @@
 {
-  "version": "0.2.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.2.0-Setup.exe",
-  "size": 35225473,
-  "sha256": "c3d5b649a3d44cee2153ff27441a221b7971ce25288e701733c38fe4af928fd4",
-  "notes": "Big update: 12 class specializations with their own skills and weapons (existing characters choose once). New dungeon Shifting Depths: a new layout on every entry, its own basalt-and-crystal look, a plain chest every run and sometimes a rare chest, and the new boss Stormheart with chain lightning and a lightning wave. Update on every PC for multiplayer (0.1.5 cannot join 0.2.0)."
+  "version": "0.3.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.3.0-Setup.exe",
+  "size": 35268763,
+  "sha256": "13febefafa9c6fb132d32fbc8dbd5b1cc83db5f080267efecc793b764ca3ebcd",
+  "notes": "More gear and personal loot: 85 new weapons and armor pieces (147 in total) with required levels, merchants with better stock after each cleared dungeon, a new jeweler in town, loot that fits the dungeon and difficulty, personal loot in multiplayer and patch notes in the main menu. Update on every PC for multiplayer (0.2.0 cannot join 0.3.0)."
 }
