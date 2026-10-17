@@ -1,7 +1,7 @@
 {
-  "version": "0.3.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.3.0-Setup.exe",
-  "size": 35268763,
-  "sha256": "13febefafa9c6fb132d32fbc8dbd5b1cc83db5f080267efecc793b764ca3ebcd",
-  "notes": "More gear and personal loot: 85 new weapons and armor pieces (147 in total) with required levels, merchants with better stock after each cleared dungeon, a new jeweler in town, loot that fits the dungeon and difficulty, personal loot in multiplayer and patch notes in the main menu. Update on every PC for multiplayer (0.2.0 cannot join 0.3.0)."
+  "version": "0.4.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.4.0-Setup.exe",
+  "size": 35389079,
+  "sha256": "612ebff41b25dc259efffa2ccced1d32f8b1e44855f7b922d4fe4f4b633099c8",
+  "notes": "Depths, forge and quests: endless depths below the Shifting Depths with Abyssal gear from Depth 3, gear upgrades +1 to +5 at the weaponsmith, an own look for every specialization, a quest board, a journal with achievements and statistics, a minimap, your level under your name, inventory sorting and locking, tips for new players and safe trades. Update on every PC for multiplayer (0.3.0 cannot join 0.4.0)."
 }
