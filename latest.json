@@ -1,7 +1,7 @@
 {
-  "version": "0.4.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.4.0-Setup.exe",
-  "size": 35389079,
-  "sha256": "612ebff41b25dc259efffa2ccced1d32f8b1e44855f7b922d4fe4f4b633099c8",
-  "notes": "Depths, forge and quests: endless depths below the Shifting Depths with Abyssal gear from Depth 3, gear upgrades +1 to +5 at the weaponsmith, an own look for every specialization, a quest board, a journal with achievements and statistics, a minimap, your level under your name, inventory sorting and locking, tips for new players and safe trades. Update on every PC for multiplayer (0.3.0 cannot join 0.4.0)."
+  "version": "0.4.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.4.1-Setup.exe",
+  "size": 35402172,
+  "sha256": "86a68c76173f1e0993ea6405a81a60e04c2fdeefdf1e3b7a22a2b3796ef8152a",
+  "notes": "Combat balancing: no knockback on normal hits, slower basic attacks, bigger mage bolts and smaller arrows, foes easier to hit, charged skills fire on release, narrower fans, only Marksman arrows pierce, shorter cooldowns, Shield Bash charge and stun, Cripple lunge with a new effect. Plays together with 0.4.0, but update both PCs."
 }
