@@ -1,7 +1,7 @@
 {
-  "version": "0.7.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.7.0-Setup.exe",
-  "size": 37137599,
-  "sha256": "0a771a4691eb9a4ab6ebe9521a683a6f8f054d4dc463fb027596a66260e621c0",
-  "notes": "Every dungeon is random now, stronger foes with extra skills on Hard and Nightmare, a new mage with cast time and no cooldowns (mana potions removed), skill upgrades at level 5 and 10, new cooldowns, stacking bleed and poison, new health bars, and gold and vault shared by all your characters with loot for every class. Not compatible with 0.6.x in multiplayer."
+  "version": "0.7.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.7.1-Setup.exe",
+  "size": 37140669,
+  "sha256": "e69727230e31e77b0bf0fb59a924aa8f2785e64b77ddd3db7977255be74a5ced",
+  "notes": "Slot upgrades now at Torvik Runeheart in the new Rune Hall, the rune level belongs to the slot, and the Arcanist's random Free Cast became Efficiency (burst always costs 25% less mana). Works with 0.7.0 in multiplayer."
 }
