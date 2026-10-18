@@ -1,7 +1,7 @@
 {
-  "version": "0.5.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.5.1-Setup.exe",
-  "size": 35474407,
-  "sha256": "d438912873dbd06805644bf3490d0c4df10ea2baa8d5a39e633100aad9fe965d",
-  "notes": "New HUD with life and mana orbs, a new action bar and character frame. The minimap is replaced by a big map on M that shows the real level with fog, room names and markers (opacity and size in Settings > Display). L hides the quest tracker. Potions have a 3 second cooldown. Space, J and K no longer attack. Works together with 0.5.0 in multiplayer."
+  "version": "0.6.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.6.0-Setup.exe",
+  "size": 37068567,
+  "sha256": "cc9c4336c5116c308162c3fefe73381511369777ba9a8934c4c59fe4b02ba6c1",
+  "notes": "New pixel art for every item, longer greatswords, real katanas, a new Sentinel shield and bows held clear of the body. New Legendary and Mythic gear at level 30 with glowing weapons, light pillars on drops and shining slots. Animated chests, key and button pictures in the hints, new effects. Not compatible with 0.5.x in multiplayer."
 }
