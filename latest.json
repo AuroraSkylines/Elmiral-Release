@@ -1,7 +1,7 @@
 {
-  "version": "0.6.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.6.0-Setup.exe",
-  "size": 37068567,
-  "sha256": "cc9c4336c5116c308162c3fefe73381511369777ba9a8934c4c59fe4b02ba6c1",
-  "notes": "New pixel art for every item, longer greatswords, real katanas, a new Sentinel shield and bows held clear of the body. New Legendary and Mythic gear at level 30 with glowing weapons, light pillars on drops and shining slots. Animated chests, key and button pictures in the hints, new effects. Not compatible with 0.5.x in multiplayer."
+  "version": "0.7.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.7.0-Setup.exe",
+  "size": 37137599,
+  "sha256": "0a771a4691eb9a4ab6ebe9521a683a6f8f054d4dc463fb027596a66260e621c0",
+  "notes": "Every dungeon is random now, stronger foes with extra skills on Hard and Nightmare, a new mage with cast time and no cooldowns (mana potions removed), skill upgrades at level 5 and 10, new cooldowns, stacking bleed and poison, new health bars, and gold and vault shared by all your characters with loot for every class. Not compatible with 0.6.x in multiplayer."
 }
