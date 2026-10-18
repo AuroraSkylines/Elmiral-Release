@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.5.0-Setup.exe",
-  "size": 35420068,
-  "sha256": "89d870b9e0487b87b670b32ac92948ca4804fc0e6154508ee8a8edfc77d4b58d",
-  "notes": "Smooth aim: the aim arrow always follows your mouse or stick, attacks turn with it until they land, and held attacks go where it points. Bigger yellow aim arrow with your own color, size, distance and opacity (new Aim & Cursor settings), Elmiral's own mouse pointer and gamepad dead zones. Update on every PC for multiplayer (0.4.x cannot join 0.5.0)."
+  "version": "0.5.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.5.1-Setup.exe",
+  "size": 35474407,
+  "sha256": "d438912873dbd06805644bf3490d0c4df10ea2baa8d5a39e633100aad9fe965d",
+  "notes": "New HUD with life and mana orbs, a new action bar and character frame. The minimap is replaced by a big map on M that shows the real level with fog, room names and markers (opacity and size in Settings > Display). L hides the quest tracker. Potions have a 3 second cooldown. Space, J and K no longer attack. Works together with 0.5.0 in multiplayer."
 }
