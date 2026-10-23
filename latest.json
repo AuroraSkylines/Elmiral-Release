@@ -1,7 +1,7 @@
 {
-  "version": "0.8.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.8.1-Setup.exe",
-  "size": 37299335,
-  "sha256": "e99668792149bc7a015e46a914333d4fa961facfb94afdc32c2dbb7258cc81d9",
-  "notes": "A new, bigger town with districts, a new animated dungeon portal and a river with a stone bridge. Not compatible with 0.8.0 in multiplayer."
+  "version": "0.8.2",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.8.2-Setup.exe",
+  "size": 37298111,
+  "sha256": "614a111b93ce2a820afbe29baf75663bb94fd19ccbfb44e146502de63183f1a4",
+  "notes": "Hotfix: the Executioner's Axe Cleave is 15% slower, the Pikeman's Pike Thrust 15% faster. Multiplayer stays compatible with 0.8.1."
 }
