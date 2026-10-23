@@ -1,7 +1,7 @@
 {
-  "version": "0.8.2",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.8.2-Setup.exe",
-  "size": 37298111,
-  "sha256": "614a111b93ce2a820afbe29baf75663bb94fd19ccbfb44e146502de63183f1a4",
-  "notes": "Hotfix: the Executioner's Axe Cleave is 15% slower, the Pikeman's Pike Thrust 15% faster. Multiplayer stays compatible with 0.8.1."
+  "version": "0.9.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.0-Setup.exe",
+  "size": 37330486,
+  "sha256": "faf8e6dc4844e18b5a48f03af6529eecbaee505c33cdc7593ad87e5cbfc2da1f",
+  "notes": "Frost Mage Cold Snap, Storm Mage, Fire Mage, Arcanist, Crossbowman and Ninja changes, a new settings menu, party cards and life bars, discarding items, a big fountain in town, a calmer portal and many fixes. Multiplayer: everyone needs 0.9.0."
 }
