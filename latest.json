@@ -1,7 +1,7 @@
 {
-  "version": "0.7.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.7.1-Setup.exe",
-  "size": 37140669,
-  "sha256": "e69727230e31e77b0bf0fb59a924aa8f2785e64b77ddd3db7977255be74a5ced",
-  "notes": "Slot upgrades now at Torvik Runeheart in the new Rune Hall, the rune level belongs to the slot, and the Arcanist's random Free Cast became Efficiency (burst always costs 25% less mana). Works with 0.7.0 in multiplayer."
+  "version": "0.8.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.8.0-Setup.exe",
+  "size": 37255219,
+  "sha256": "ce290240a671dadd275eb62b92e25f8c0d3a5a0d054ef60bf38a18d28b7dd462",
+  "notes": "Four new specializations (Storm Mage, Pikeman, Ninja, Crossbowman) with spears, shuriken and crossbows, a passive for every specialization, duels in the town ring, training dummies, gamepad and HUD fixes and class balance. Not compatible with 0.7.x in multiplayer."
 }
