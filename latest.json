@@ -1,7 +1,7 @@
 {
-  "version": "0.8.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.8.0-Setup.exe",
-  "size": 37255219,
-  "sha256": "ce290240a671dadd275eb62b92e25f8c0d3a5a0d054ef60bf38a18d28b7dd462",
-  "notes": "Four new specializations (Storm Mage, Pikeman, Ninja, Crossbowman) with spears, shuriken and crossbows, a passive for every specialization, duels in the town ring, training dummies, gamepad and HUD fixes and class balance. Not compatible with 0.7.x in multiplayer."
+  "version": "0.8.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.8.1-Setup.exe",
+  "size": 37299335,
+  "sha256": "e99668792149bc7a015e46a914333d4fa961facfb94afdc32c2dbb7258cc81d9",
+  "notes": "A new, bigger town with districts, a new animated dungeon portal and a river with a stone bridge. Not compatible with 0.8.0 in multiplayer."
 }
