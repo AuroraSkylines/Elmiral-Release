@@ -1,7 +1,7 @@
 {
-  "version": "0.9.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.0-Setup.exe",
-  "size": 37330486,
-  "sha256": "faf8e6dc4844e18b5a48f03af6529eecbaee505c33cdc7593ad87e5cbfc2da1f",
-  "notes": "Frost Mage Cold Snap, Storm Mage, Fire Mage, Arcanist, Crossbowman and Ninja changes, a new settings menu, party cards and life bars, discarding items, a big fountain in town, a calmer portal and many fixes. Multiplayer: everyone needs 0.9.0."
+  "version": "0.9.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.1-Setup.exe",
+  "size": 37334238,
+  "sha256": "0d01d8301c3a5ec765da2e63dab4ed08c5a94adbbeaaf9275e708735f9486130",
+  "notes": "A brand new main menu: new ELMIRAL logo with a sword and a glowing aura, a big Continue card and a menu bar at the bottom. Multiplayer stays compatible with 0.9.0."
 }
