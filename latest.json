@@ -1,7 +1,7 @@
 {
-  "version": "0.9.5",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.5-Setup.exe",
-  "size": 37373747,
-  "sha256": "9c16bdfcac03897853f335d4280b9b1b279a43cbeb953cd8d75a7cdb7d9f7c7f",
-  "notes": "New patch notes (a small card after each update, a foldable list of all updates), gamepad fixes in the character creator and hero selection, hero glow matches the specialization colour. Multiplayer stays compatible with 0.9.1 to 0.9.4."
+  "version": "0.9.6",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.6-Setup.exe",
+  "size": 46895088,
+  "sha256": "ad6c3b515667c1a9cb24392b9eabedb1430a6795ae4d041cda1c37ecffa39989",
+  "notes": "New music: a lively main menu tune (\"Lantern Jig\") and the town song \"Fireflies\" by rxdley. Multiplayer stays compatible with 0.9.1 to 0.9.5."
 }
