@@ -1,7 +1,7 @@
 {
-  "version": "0.9.2",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.2-Setup.exe",
-  "size": 37353371,
-  "sha256": "89d7c1f7c5999c89a4f4f8901f7b7bc8837a4a80aa585e187c7b5fd2f1d70955",
-  "notes": "A new character creator: your class stands big on a glowing rune altar, classes and specializations are medallions in a bar at the bottom, with stat bars and skill icons. Multiplayer stays compatible with 0.9.1."
+  "version": "0.9.3",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.3-Setup.exe",
+  "size": 37353549,
+  "sha256": "72e103a602a72ebdb4dfa76d975b552cf3e6a9e6af9859630f35b2a8755be33c",
+  "notes": "Shorter tooltips over the specializations: their description and both skill names. Multiplayer stays compatible with 0.9.1 and 0.9.2."
 }
