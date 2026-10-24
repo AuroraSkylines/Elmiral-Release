@@ -1,7 +1,7 @@
 {
-  "version": "0.9.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.1-Setup.exe",
-  "size": 37334238,
-  "sha256": "0d01d8301c3a5ec765da2e63dab4ed08c5a94adbbeaaf9275e708735f9486130",
-  "notes": "A brand new main menu: new ELMIRAL logo with a sword and a glowing aura, a big Continue card and a menu bar at the bottom. Multiplayer stays compatible with 0.9.0."
+  "version": "0.9.2",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.2-Setup.exe",
+  "size": 37353371,
+  "sha256": "89d7c1f7c5999c89a4f4f8901f7b7bc8837a4a80aa585e187c7b5fd2f1d70955",
+  "notes": "A new character creator: your class stands big on a glowing rune altar, classes and specializations are medallions in a bar at the bottom, with stat bars and skill icons. Multiplayer stays compatible with 0.9.1."
 }
