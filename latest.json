@@ -1,7 +1,7 @@
 {
-  "version": "0.9.3",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.3-Setup.exe",
-  "size": 37353549,
-  "sha256": "72e103a602a72ebdb4dfa76d975b552cf3e6a9e6af9859630f35b2a8755be33c",
-  "notes": "Shorter tooltips over the specializations: their description and both skill names. Multiplayer stays compatible with 0.9.1 and 0.9.2."
+  "version": "0.9.4",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.4-Setup.exe",
+  "size": 37361104,
+  "sha256": "500440c4075d9cdce9eb13587121afa88a68de2083418da338546c3cd330360c",
+  "notes": "New character select: the Hall of Heroes. Your heroes stand on rune pedestals holding their equipped weapons. Multiplayer stays compatible with 0.9.1 to 0.9.3."
 }
