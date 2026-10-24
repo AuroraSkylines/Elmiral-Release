@@ -1,7 +1,7 @@
 {
-  "version": "0.9.4",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.4-Setup.exe",
-  "size": 37361104,
-  "sha256": "500440c4075d9cdce9eb13587121afa88a68de2083418da338546c3cd330360c",
-  "notes": "New character select: the Hall of Heroes. Your heroes stand on rune pedestals holding their equipped weapons. Multiplayer stays compatible with 0.9.1 to 0.9.3."
+  "version": "0.9.5",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.5-Setup.exe",
+  "size": 37373747,
+  "sha256": "9c16bdfcac03897853f335d4280b9b1b279a43cbeb953cd8d75a7cdb7d9f7c7f",
+  "notes": "New patch notes (a small card after each update, a foldable list of all updates), gamepad fixes in the character creator and hero selection, hero glow matches the specialization colour. Multiplayer stays compatible with 0.9.1 to 0.9.4."
 }
