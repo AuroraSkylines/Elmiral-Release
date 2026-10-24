@@ -1,7 +1,7 @@
 {
-  "version": "0.9.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.0-Setup.exe",
-  "size": 37330486,
-  "sha256": "faf8e6dc4844e18b5a48f03af6529eecbaee505c33cdc7593ad87e5cbfc2da1f",
-  "notes": "Frost Mage Cold Snap, Storm Mage, Fire Mage, Arcanist, Crossbowman and Ninja changes, a new settings menu, party cards and life bars, discarding items, a big fountain in town, a calmer portal and many fixes. Multiplayer: everyone needs 0.9.0."
+  "version": "0.9.6",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.6-Setup.exe",
+  "size": 46895088,
+  "sha256": "ad6c3b515667c1a9cb24392b9eabedb1430a6795ae4d041cda1c37ecffa39989",
+  "notes": "New music: a lively main menu tune (\"Lantern Jig\") and the town song \"Fireflies\" by rxdley. Multiplayer stays compatible with 0.9.1 to 0.9.5."
 }
