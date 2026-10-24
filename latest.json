@@ -1,7 +1,7 @@
 {
-  "version": "0.9.6",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.6-Setup.exe",
-  "size": 46895088,
-  "sha256": "ad6c3b515667c1a9cb24392b9eabedb1430a6795ae4d041cda1c37ecffa39989",
-  "notes": "New music: a lively main menu tune (\"Lantern Jig\") and the town song \"Fireflies\" by rxdley. Multiplayer stays compatible with 0.9.1 to 0.9.5."
+  "version": "0.9.7",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.7-Setup.exe",
+  "size": 46894172,
+  "sha256": "a7dcba7ca34618a23af5f2d1c8f38426ccfa5032b63e61134cb10043b871a948",
+  "notes": "Balancing: every bleed deals 20% of your Attack per second for 4 s, new ranges and projectile speeds for many specializations, frost changes. Multiplayer stays compatible with 0.9.1 to 0.9.6."
 }
