@@ -1,7 +1,7 @@
 {
-  "version": "0.9.8",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.8-Setup.exe",
-  "size": 46923465,
-  "sha256": "6d64a90a59d42001f341d3881ecd49e92c210f04a7785c84c815342016d46a07",
-  "notes": "New look for the whole in-game interface (Arcane Blade): new HUD, hero book with tabs, new Character tab (C), inventory with your hero in a rune circle. Multiplayer stays compatible with 0.9.1 to 0.9.7."
+  "version": "0.9.9",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.9-Setup.exe",
+  "size": 46960005,
+  "sha256": "0996da481efd9611689e753bbf2e9fd383ce051299d75da6eb00a8a2c23e6706",
+  "notes": "The hero book is finished: new Character, Skills, Journal and Party pages, LB / RB tabs from the inventory, key and controller pictures everywhere, orbs joined to the action bar. Multiplayer stays compatible with 0.9.1 to 0.9.8."
 }
