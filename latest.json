@@ -1,7 +1,7 @@
 {
-  "version": "0.10.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.10.0-Setup.exe",
-  "size": 47002326,
-  "sha256": "b0a0c845c8ec172697831a3c63edb0b1a376dafed717325b7c22674fd0b15b3f",
-  "notes": "New class: the Witch with the Necromancer (skeletons, rats, Corruption). Shorter dash cooldowns, mage and witch crit 15%, Cold Snap reach 150, Ball Lightning 165%, deep blue mana orb. Multiplayer needs 0.10.0 on every PC."
+  "version": "0.10.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.10.1-Setup.exe",
+  "size": 47007904,
+  "sha256": "fb5e453b59e5cd47685f673053690556ae900babd18d602325cc24fd830c911c",
+  "notes": "Foes now attack the Necromancer's skeletons, skeletons keep apart, deleting a character asks only Yes/No. Assassin: new passive Venom (poison on every hit), Dagger Fan 100%, upgrade Pierce (5 foes), Deadly Venom. Works with 0.10.0 in multiplayer."
 }
