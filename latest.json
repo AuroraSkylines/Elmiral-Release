@@ -1,7 +1,7 @@
 {
-  "version": "0.9.9",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.9.9-Setup.exe",
-  "size": 46960005,
-  "sha256": "0996da481efd9611689e753bbf2e9fd383ce051299d75da6eb00a8a2c23e6706",
-  "notes": "The hero book is finished: new Character, Skills, Journal and Party pages, LB / RB tabs from the inventory, key and controller pictures everywhere, orbs joined to the action bar. Multiplayer stays compatible with 0.9.1 to 0.9.8."
+  "version": "0.10.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.10.0-Setup.exe",
+  "size": 47002326,
+  "sha256": "b0a0c845c8ec172697831a3c63edb0b1a376dafed717325b7c22674fd0b15b3f",
+  "notes": "New class: the Witch with the Necromancer (skeletons, rats, Corruption). Shorter dash cooldowns, mage and witch crit 15%, Cold Snap reach 150, Ball Lightning 165%, deep blue mana orb. Multiplayer needs 0.10.0 on every PC."
 }
