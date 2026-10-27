@@ -1,7 +1,7 @@
 {
-  "version": "0.10.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.10.1-Setup.exe",
-  "size": 47007904,
-  "sha256": "fb5e453b59e5cd47685f673053690556ae900babd18d602325cc24fd830c911c",
-  "notes": "Foes now attack the Necromancer's skeletons, skeletons keep apart, deleting a character asks only Yes/No. Assassin: new passive Venom (poison on every hit), Dagger Fan 100%, upgrade Pierce (5 foes), Deadly Venom. Works with 0.10.0 in multiplayer."
+  "version": "0.11.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.11.0-Setup.exe",
+  "size": 47072533,
+  "sha256": "9890bf3597effa64b96fe626d7877e4b299cac69bb96486a9a0e6d2635acedd0",
+  "notes": "Talent trees (Star Path) for every specialization: 1 point per level, replace the old upgrades. Warriors use Rage, Rogues Energy, Rangers Focus; their second skill has no cooldown but a cost. Amazon +10% crit, Ninja Deadly Stars, Soul Bolt 130%. Not compatible with 0.10.x in multiplayer."
 }
