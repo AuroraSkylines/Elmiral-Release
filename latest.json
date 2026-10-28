@@ -1,7 +1,7 @@
 {
-  "version": "0.11.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.11.1-Setup.exe",
-  "size": 47076969,
-  "sha256": "2bbad403eae84e1da49a130e75c5843133d3c099de4cc51923a8a47d351f89fd",
-  "notes": "Character selection: a mouse click on a saved hero only selects it; press Play or double click to enter. Gamepad and keyboard unchanged. Compatible with 0.11.0 in multiplayer."
+  "version": "0.12.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.12.0-Setup.exe",
+  "size": 47214817,
+  "sha256": "08e2efef625dc462e9ea05a6804824fd5d54076ed45fab99af181376b0dd7e29",
+  "notes": "Great Halls and Rare Foes: new ring layout with a Great Hall in every dungeon, 25 new foes with real skills, new boss looks and attacks, the Stormheart and the Depth Horror together in the Shifting Depths, and rare foes with special attacks and better loot. Not compatible with 0.11.x in multiplayer: everyone has to update."
 }
