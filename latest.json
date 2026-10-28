@@ -1,7 +1,7 @@
 {
-  "version": "0.11.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.11.0-Setup.exe",
-  "size": 47072533,
-  "sha256": "9890bf3597effa64b96fe626d7877e4b299cac69bb96486a9a0e6d2635acedd0",
-  "notes": "Talent trees (Star Path) for every specialization: 1 point per level, replace the old upgrades. Warriors use Rage, Rogues Energy, Rangers Focus; their second skill has no cooldown but a cost. Amazon +10% crit, Ninja Deadly Stars, Soul Bolt 130%. Not compatible with 0.10.x in multiplayer."
+  "version": "0.11.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.11.1-Setup.exe",
+  "size": 47076969,
+  "sha256": "2bbad403eae84e1da49a130e75c5843133d3c099de4cc51923a8a47d351f89fd",
+  "notes": "Character selection: a mouse click on a saved hero only selects it; press Play or double click to enter. Gamepad and keyboard unchanged. Compatible with 0.11.0 in multiplayer."
 }
