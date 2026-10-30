@@ -1,7 +1,7 @@
 {
-  "version": "0.12.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.12.1-Setup.exe",
-  "size": 47241226,
-  "sha256": "b794506d41d7e03246d6e78b91060ae18c2c84e4953e2873a72c0e6eaf092f08",
-  "notes": "The Dungeon Portal: a new dungeon select with boss banners, an example map, the boss and rare foe of each dungeon, difficulty cards with your clears, animations and full gamepad control. Multiplayer compatible with 0.12.0."
+  "version": "0.13.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.13.0-Setup.exe",
+  "size": 47245423,
+  "sha256": "5dff80923cc51415bbd2f0d730149eafee701b72345cfa02e52cc9775c6d2ab3",
+  "notes": "Balancing: talents at level 6 and 18 have 5 ranks (same maximum), level 24 damage +5% per rank, new skill 2 costs and more Rage per attack, Assassin Piercing Fan, Virulence makes poison deal 50% more. Multiplayer needs 0.13.0 on every PC."
 }
