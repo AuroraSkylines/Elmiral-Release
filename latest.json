@@ -1,7 +1,7 @@
 {
-  "version": "0.13.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.13.0-Setup.exe",
-  "size": 47245423,
-  "sha256": "5dff80923cc51415bbd2f0d730149eafee701b72345cfa02e52cc9775c6d2ab3",
-  "notes": "Balancing: talents at level 6 and 18 have 5 ranks (same maximum), level 24 damage +5% per rank, new skill 2 costs and more Rage per attack, Assassin Piercing Fan, Virulence makes poison deal 50% more. Multiplayer needs 0.13.0 on every PC."
+  "version": "0.14.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.14.0-Setup.exe",
+  "size": 47276358,
+  "sha256": "339d829a56d50f62ce7a5291ce69958d9f33025f18ff63d2c528786db9493789",
+  "notes": "The Witch's new paths: Blood Witch, Shadow Witch and Forest Witch with own skills, passives and talent trees; Necromancer talents at level 12 and 18 changed. Multiplayer needs 0.14.0 on every PC."
 }
