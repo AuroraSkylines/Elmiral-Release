@@ -1,7 +1,7 @@
 {
-  "version": "0.12.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.12.0-Setup.exe",
-  "size": 47214817,
-  "sha256": "08e2efef625dc462e9ea05a6804824fd5d54076ed45fab99af181376b0dd7e29",
-  "notes": "Great Halls and Rare Foes: new ring layout with a Great Hall in every dungeon, 25 new foes with real skills, new boss looks and attacks, the Stormheart and the Depth Horror together in the Shifting Depths, and rare foes with special attacks and better loot. Not compatible with 0.11.x in multiplayer: everyone has to update."
+  "version": "0.12.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.12.1-Setup.exe",
+  "size": 47241226,
+  "sha256": "b794506d41d7e03246d6e78b91060ae18c2c84e4953e2873a72c0e6eaf092f08",
+  "notes": "The Dungeon Portal: a new dungeon select with boss banners, an example map, the boss and rare foe of each dungeon, difficulty cards with your clears, animations and full gamepad control. Multiplayer compatible with 0.12.0."
 }
