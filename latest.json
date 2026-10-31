@@ -1,7 +1,7 @@
 {
-  "version": "0.15.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.15.0-Setup.exe",
-  "size": 47528937,
-  "sha256": "bf08989ac6d6a76f8a01b8dbed5428c16b4089ba5aae01efc319b54d3a742b85",
-  "notes": "Much smoother big fights, new look \"Lantern Glow\", a Graphics tab with presets and a live preview, FPS limit, VSync modes and an FPS counter. Everything works with a gamepad. Multiplayer: everyone needs 0.15.0."
+  "version": "0.15.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.15.1-Setup.exe",
+  "size": 47578380,
+  "sha256": "dcb06b9370915b548dc31da4d3deab87bd2a3082565bd35d010b7ba5b384e8c6",
+  "notes": "Every specialization gets its own signature look, attack and skill poses, an idle gesture and a small pixel aura. The Blood, Shadow and Forest Witch have their own figures. Multiplayer: works together with 0.15.0."
 }
