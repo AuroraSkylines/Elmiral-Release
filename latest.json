@@ -1,7 +1,7 @@
 {
-  "version": "0.14.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.14.1-Setup.exe",
-  "size": 47464316,
-  "sha256": "cf373e69971f69f38242910577c5397cf561113e32241ea068a633fe10379c1f",
-  "notes": "New start animation: the sword strikes in, cuts the ELMIRAL letters open and the logo glides into the main menu, with its own sounds. Any key skips it. Multiplayer: compatible with 0.14.0."
+  "version": "0.15.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.15.0-Setup.exe",
+  "size": 47528937,
+  "sha256": "bf08989ac6d6a76f8a01b8dbed5428c16b4089ba5aae01efc319b54d3a742b85",
+  "notes": "Much smoother big fights, new look \"Lantern Glow\", a Graphics tab with presets and a live preview, FPS limit, VSync modes and an FPS counter. Everything works with a gamepad. Multiplayer: everyone needs 0.15.0."
 }
