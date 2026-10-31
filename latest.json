@@ -1,7 +1,7 @@
 {
-  "version": "0.14.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.14.0-Setup.exe",
-  "size": 47276358,
-  "sha256": "339d829a56d50f62ce7a5291ce69958d9f33025f18ff63d2c528786db9493789",
-  "notes": "The Witch's new paths: Blood Witch, Shadow Witch and Forest Witch with own skills, passives and talent trees; Necromancer talents at level 12 and 18 changed. Multiplayer needs 0.14.0 on every PC."
+  "version": "0.14.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.14.1-Setup.exe",
+  "size": 47464316,
+  "sha256": "cf373e69971f69f38242910577c5397cf561113e32241ea068a633fe10379c1f",
+  "notes": "New start animation: the sword strikes in, cuts the ELMIRAL letters open and the logo glides into the main menu, with its own sounds. Any key skips it. Multiplayer: compatible with 0.14.0."
 }
