@@ -1,7 +1,7 @@
 {
-  "version": "0.15.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.15.1-Setup.exe",
-  "size": 47578380,
-  "sha256": "dcb06b9370915b548dc31da4d3deab87bd2a3082565bd35d010b7ba5b384e8c6",
-  "notes": "Every specialization gets its own signature look, attack and skill poses, an idle gesture and a small pixel aura. The Blood, Shadow and Forest Witch have their own figures. Multiplayer: works together with 0.15.0."
+  "version": "0.16.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.16.0-Setup.exe",
+  "size": 47585766,
+  "sha256": "77ccf8f9b427f9a16b41042087d8147ea8ae565e9ae85fd398e16f1edec10a5e",
+  "notes": "Balancing and fixes from the notes 0.13-0.14: stronger, faster mages with mana regeneration, Amazon with shortbows, two dash charges for every Rogue, a long Blood Leech ray, Forest Witch and Rootling changes. Multiplayer: everyone needs 0.16.0."
 }
