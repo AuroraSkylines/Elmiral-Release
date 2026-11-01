@@ -1,7 +1,7 @@
 {
-  "version": "0.16.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.16.0-Setup.exe",
-  "size": 47585766,
-  "sha256": "77ccf8f9b427f9a16b41042087d8147ea8ae565e9ae85fd398e16f1edec10a5e",
-  "notes": "Balancing and fixes from the notes 0.13-0.14: stronger, faster mages with mana regeneration, Amazon with shortbows, two dash charges for every Rogue, a long Blood Leech ray, Forest Witch and Rootling changes. Multiplayer: everyone needs 0.16.0."
+  "version": "0.16.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.16.1-Setup.exe",
+  "size": 47600542,
+  "sha256": "bf61fe8cd26dacf4cd329de25bc4fa7cb990a5cb2a827cbbf99b7ca53d3c7ca3",
+  "notes": "New ready check \"Portal Oath\": the heroes stand armed on rune pedestals before the open portal, ready beams, a big 3-2-1 countdown inside the portal and the party is pulled in. Multiplayer: works together with 0.16.0."
 }
