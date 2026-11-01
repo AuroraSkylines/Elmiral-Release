@@ -1,7 +1,7 @@
 {
-  "version": "0.16.1",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.16.1-Setup.exe",
-  "size": 47600542,
-  "sha256": "bf61fe8cd26dacf4cd329de25bc4fa7cb990a5cb2a827cbbf99b7ca53d3c7ca3",
-  "notes": "New ready check \"Portal Oath\": the heroes stand armed on rune pedestals before the open portal, ready beams, a big 3-2-1 countdown inside the portal and the party is pulled in. Multiplayer: works together with 0.16.0."
+  "version": "0.17.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.17.0-Setup.exe",
+  "size": 48820818,
+  "sha256": "eed93b4430cd97d355170dc61c1f4b891dc431437c7ec7cb82d0c0d38222684f",
+  "notes": "Emberfall: a second world with four new dungeons and four new bosses, the Hollow Mines, a new Portal Square with three gates, only Normal/Hard/Nightmare with fixed dungeon levels, the Shifting Depths behind the Abyss Gate from level 25, plate/leather/cloth armour, wands for Mages and new player sounds. Multiplayer: everyone needs 0.17.0."
 }
