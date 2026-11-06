@@ -1,7 +1,7 @@
 {
-  "version": "0.17.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.17.0-Setup.exe",
-  "size": 48820818,
-  "sha256": "eed93b4430cd97d355170dc61c1f4b891dc431437c7ec7cb82d0c0d38222684f",
-  "notes": "Emberfall: a second world with four new dungeons and four new bosses, the Hollow Mines, a new Portal Square with three gates, only Normal/Hard/Nightmare with fixed dungeon levels, the Shifting Depths behind the Abyss Gate from level 25, plate/leather/cloth armour, wands for Mages and new player sounds. Multiplayer: everyone needs 0.17.0."
+  "version": "0.18.0",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.18.0-Setup.exe",
+  "size": 48874784,
+  "sha256": "32f352c852c89007d013238a96c3d1310bb087188b370fdeeea3a6137b86e729",
+  "notes": "Classes Anew: new talent trees with six talents per specialization, life and resource bars on the name plates, a compact party view, a new results screen, tougher foes that scale with the party, changing Great Halls, class-fitting loot and shops, a new quest board, new looks for shops, vault and pause menu, and changes to Amazone, Mage, Frost Mage, Storm Mage, bleed and poison. Multiplayer: everyone needs 0.18.0."
 }
