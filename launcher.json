@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "game": {
+    "version": "0.19.1",
+    "files": [
+      {
+        "path": "Elmiral.exe",
+        "size": 105484288,
+        "sha256": "e16e73840be0c5efd61040241424844bfde840058f30c742feff3107860800b6",
+        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/game/0.19.1/Elmiral.exe.gz",
+        "packed_size": 37737675,
+        "packed_sha256": "d2b966fc4593d8b8894c29e3e473666abf6e207564f55d6d5116f60380e8efd8"
+      },
+      {
+        "path": "Elmiral.pck",
+        "size": 27644104,
+        "sha256": "4820bb2ce9bc2c800e822726dee7f612be0deafaf7223c9f5ef0520f0b301bcc",
+        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/game/0.19.1/Elmiral.pck.gz",
+        "packed_size": 24168914,
+        "packed_sha256": "7db4e3089b84413a042c6dd9767633113c65fb660d9104e6a6df822ab14a1848"
+      },
+      {
+        "path": "libgodotsteam.windows.template_release.x86_64.dll",
+        "size": 3982336,
+        "sha256": "799e1917061854661ab53c8ef6d297366193ed495088b34f5e32a280fa4ef744",
+        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/game/0.19.1/libgodotsteam.windows.template_release.x86_64.dll.gz",
+        "packed_size": 1253932,
+        "packed_sha256": "e7cef353d33837c1c87409e2ea1dae21ad94fc0153ff7060c31ba842f6138e07"
+      },
+      {
+        "path": "steam_api64.dll",
+        "size": 319128,
+        "sha256": "8de54d32508e216c9135b8bf025749243d44e404c1c22a8e5fe35acecabe7a9c",
+        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/game/0.19.1/steam_api64.dll.gz",
+        "packed_size": 147156,
+        "packed_sha256": "fe9032a856176546534252b83c5ca1172d4ac27dd45a599fa19bcfd3738545e0"
+      },
+      {
+        "path": "steam_appid.txt",
+        "size": 4,
+        "sha256": "66c342932aa7c18f7bf1fa212aa011069fc2e50e0c7e9e4c73fcaa6851854c47",
+        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/game/0.19.1/steam_appid.txt.gz",
+        "packed_size": 24,
+        "packed_sha256": "ab3381593d58b786f48ff52f9f1d88b46ef59b65754f4003a8f437b346bbb503"
+      }
+    ]
+  },
+  "patch_notes_url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/patch_notes.json",
+  "launcher": {
+    "version": "1.0.0",
+    "files": [
+      {
+        "path": "ElmiralLauncher.exe",
+        "size": 105757720,
+        "sha256": "546216b9cb9325cb3e09d71efa25b7bc9b23cd0981867ed9d7402a4d0affc845",
+        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/launcher/1.0.0/ElmiralLauncher.exe.gz",
+        "packed_size": 38061615,
+        "packed_sha256": "b908d71d326b219cdd81e3eaf7137eac886940c494f6f2d9abf0fda0a087e674"
+      }
+    ]
+  }
+}

@@ -1,0 +1,653 @@
+{
+  "_doc": "Patch notes (main menu > Patch Notes; shown once after each update, scripts/ui/patch_notes_window.gd). Newest first. version = project.godot config/version of that release, date = release day (YYYY-MM-DD), changes = short plain sentences. Add the new entry with every release (RELEASE.md).",
+  "entries": [
+	{
+	  "version": "0.19.1",
+	  "date": "2026-11-08",
+	  "title": "The Launcher",
+	  "changes": [
+		"Elmiral now has its own launcher. It shows the patch notes, and one button updates the game in the background: it downloads only the files that changed, checks every file and swaps them in. No more installer to click through. Then press PLAY.",
+		"Coming from 0.19.0, this update installs the launcher by itself and then opens it. Your desktop and start menu shortcuts now start the launcher.",
+		"The update check inside the game is gone. Updates come through the launcher only.",
+		"CHECK FILES in the launcher finds missing or damaged game files and repairs them.",
+		"Your characters and settings stay where they are (in %APPDATA%\\Elmiral) and are not touched by updates.",
+		"Multiplayer: works together with 0.19.0."
+	  ]
+	},
+	{
+	  "version": "0.19.0",
+	  "date": "2026-11-08",
+	  "title": "Embers Reforged",
+	  "changes": [
+		"The four Emberfall bosses are redrawn as molten titans with their own attack and skill poses. Below half life each learns something new: Slagmaw leaps, Cinderhelm cleaves in burning lanes, the Glass Regent raises crystal spikes, the Starfall Colossus pulls you into a gravity well.",
+		"Emberfall has its own music: \"Forge March\" in the dungeons and \"Molten Fury\" for the bosses.",
+		"Hard is gone: Normal and Nightmare remain. Your Hard clears count as Normal. The Abyss Gate always runs on Nightmare and is as strong per depth as before.",
+		"Daily Rift: every day one dungeon with the same map for everyone. The first clear of the day pays double the quest reward. Look for the badge in the portal window.",
+		"Best times: your fastest clears and deepest Abyss runs are in the journal under RECORDS.",
+		"Loot filter and auto-sell (settings, Loot): hide drops below a rarity and sell them automatically in town. Epic and better items and potions are never filtered.",
+		"Ping: press G, the middle mouse button or R3 to mark a spot for your party.",
+		"Multiplayer: if your connection drops, the game reconnects by itself and puts you back into the party's dungeon next to the host. Foes already defeated stay defeated. A warning shows when the connection is unstable, and the party window shows your ping.",
+		"The Rune Hall, the Jeweler and The Last Lantern have their own buildings in town.",
+		"Frost Mage: Frost Cone is shorter and narrower (reach 95, 65°; Wide Cone 95°).",
+		"Multiplayer: everyone needs 0.19.0 (does not work together with 0.18.x)."
+	  ]
+	},
+	{
+	  "version": "0.18.0",
+	  "date": "2026-11-06",
+	  "title": "Classes Anew",
+	  "changes": [
+		"New talent trees for every specialization: six talents from level 5 to 30, one point every five levels, a choice of two at levels 5 and 10.",
+		"Life and resource bars now sit on the name plates instead of orbs; your own bars can be shown under your character.",
+		"Party cards are compact with READY / NOT READY and notes when someone joins or leaves. In town you see the attacks, dashes, skills and summons of the others.",
+		"New results screen with your loot shown as item slots.",
+		"Foes are tougher (+40% life, +10% damage) and scale with the party: +50% life and +20% damage for each extra member.",
+		"Great Halls change their layout with every run. New level requirements: 1/3/5/7 in the first world, 10/12/14/16 in Emberfall; Nightmare opens after Normal.",
+		"Drops from foes, chests, rare foes and the Abyss favour gear your class can use. Shops only sell gear your class can use, with slot and weapon filters.",
+		"New quest board with Captain Otto and three new quests every day.",
+		"Amazone: new look \"Silver Huntress\". Mage: 150 mana and 10 mana per second. Frost Mage: Frost Cone replaces Cold Snap, faster Frostbolt. Storm Mage: Ball Lightning is always fully charged.",
+		"Bleed and poison stack up to 5 times; bleed deals 5% (one-handed, shortbows) or 10% (two-handed, longbows, crossbows) per second for 5 s, poison 5% per second for 5 s.",
+		"New looks for the shops, the Rune Hall, the vault, the pause menu and the credits. Key hints light up when you press them and follow your device.",
+		"Name plates no longer shake while walking. Showing levels under names is now a setting (off by default).",
+		"Multiplayer: everyone needs 0.18.0 (does not work together with 0.17.x)."
+	  ]
+	},
+	{
+	  "version": "0.17.0",
+	  "date": "2026-11-01",
+	  "title": "Emberfall",
+	  "changes": [
+		"A second world: Emberfall, where a star fell. Four new dungeons - Cinder Warrens (Lv 12), Ashen Bastion (Lv 14), Obsidian Vault (Lv 16) and Heart of the Star (Lv 18) - each with its own look, new foes, a rare foe and a new boss: Slagmaw, Marshal Cinderhelm, the Glass Regent and the Starfall Colossus.",
+		"New dungeon in the first world: the Hollow Mines (Lv 10) with goblin diggers, delvers, ore slimes and Rockjaw, a troll of living stone.",
+		"The Portal Square has three gates: Lantern Cross (first world), the Emberfall Gate (opens at level 12 once you have cleared the Hollow Mines) and the Abyss Gate in its own dark court.",
+		"Only three difficulties: Normal, Hard and Nightmare. Every dungeon has a fixed level on each one (Normal = levels 1-18, Hard 19-26, Nightmare 26-30). Clears on Easy count as Normal.",
+		"The Shifting Depths are now reached through the Abyss Gate from level 25, without a difficulty choice - the depth is the difficulty. Every fifth depth is guarded by the Depth Horror.",
+		"XP comes from the dungeon's level: early dungeons level you fast, Nightmare slowly towards level 30.",
+		"Armour types: Warriors wear plate, Rogues and Rangers leather, Mages and Witches cloth. Equipped armour of another type is reforged into your type of the same level.",
+		"Mages now cast with wands; staves belong to the Witches. An equipped staff becomes the wand of its tier.",
+		"Loot favours armour your class can wear.",
+		"All player sounds are new: casts, hits, damage, dashes and more for every class and specialization.",
+		"Multiplayer: everyone needs 0.17.0 (does not work together with 0.16.x)."
+	  ]
+	},
+	{
+	  "version": "0.16.1",
+	  "date": "2026-11-01",
+	  "title": "Portal Oath",
+	  "changes": [
+		"New ready check: the heroes stand armed on rune pedestals before the open portal, with the boss waiting inside.",
+		"Whoever is ready hops, the runes turn and a beam in the spec colour shoots into the portal.",
+		"The portal spins faster with every ready hero; the countdown 3-2-1 and GO! show big inside it, then the party is pulled in.",
+		"Once the countdown runs it can no longer be cancelled by accident.",
+		"Multiplayer: works together with 0.16.0."
+	  ]
+	},
+	{
+	  "version": "0.16.0",
+	  "date": "2026-11-01",
+	  "title": "Sharper Edges",
+	  "changes": [
+		"Mages: 100 mana at level 1 (+5 per level) that refills by 5% of your maximum every second; attacks no longer give mana back.",
+		"Mages: Skill 1 is 15% faster and every mage deals 15% more damage.",
+		"Fire Mage: Fireball explodes 20% wider and the Meteor strikes a 20% wider area. Arcanist: Arcane Burst is 30% wider.",
+		"Storm Mage: the level 18 talent is now Swiftness (+2% attack speed per rank, 5 ranks).",
+		"Amazone: now wields shortbows (an equipped bow is reforged into a shortbow of the same tier) and shoots faster. The Huntress still shoots 10% faster than her.",
+		"Amazone: Arrow Barrage makes foes bleed.",
+		"Every Rogue (Samurai, Thief, Ninja too) now has 2 dash charges. Assassin: Dagger Fan reaches half as far.",
+		"Ninja: the magic \"pling\" on throws is gone.",
+		"Blood Witch: Blood Leech is now a long ray of blood from you to the foe that drains its life.",
+		"Shadow Witch +10% damage. Forest Witch +10% damage; Creeping Vines are twice as wide.",
+		"Forest Witch talents: level 3 offers more damage or +20% attack speed for the vines, level 15 makes them hold foes in place.",
+		"Rootlings deal 20% more damage, have 20% more health and lash once more.",
+		"Summons walk at least as fast as you.",
+		"Gamepad: the cursor no longer jumps onto Sort on the way to the top right bag slot.",
+		"Multiplayer: everyone needs 0.16.0 (does not work together with 0.15.x)."
+	  ]
+	},
+    {
+      "version": "0.15.1",
+      "date": "2026-10-31",
+      "title": "Signatures",
+      "changes": [
+        "Every specialization now has its own signature look: a cape, horn, quiver, loot sack, scarf, crystal or crown on top of the class figure.",
+        "The Blood, Shadow and Forest Witch got their own figures: Blood Crown with a bat, Moon Veil with an eye orb, and an antler crown with a frog.",
+        "New body poses: heroes wind up and strike with their attacks and raise their hands for skills.",
+        "Heroes who stand still for a while do a small idle gesture of their own.",
+        "Every specialization has a small pixel aura (snow, embers, runes, sparks, petals, fireflies ...) and a burst in its colour when a skill goes off. Graphics > Particles sets how much of it you see.",
+        "Multiplayer: works together with 0.15.0."
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "date": "2026-10-31",
+      "title": "Lantern Glow",
+      "changes": [
+        "Big fights run much smoother: hitting large packs of foes no longer drops the frame rate.",
+        "Damage numbers can now be combined: quick hits and damage over time on one foe add up into one number, at most 40 on screen.",
+        "New look \"Lantern Glow\": warm glow around lights, a graded colour look, a soft vignette, fog and light shafts, wall shadows and embers over torches.",
+        "New hit effect: a pixel star with a ring of sparks, bigger on critical hits.",
+        "New Graphics tab with the presets Low, Medium, High and Ultra and a live preview of your current place that shows exactly what each setting does.",
+        "Display: window mode (windowed, borderless, exclusive), VSync off/on/adaptive, an FPS limit that also works with VSync, lower limits in menus and in the background, and an FPS counter.",
+        "Every setting works with a gamepad: LB/RB change tabs, the D-pad changes the values.",
+        "Multiplayer: everyone needs version 0.15.0."
+      ]
+    },
+    {
+      "version": "0.14.1",
+      "date": "2026-10-31",
+      "title": "The Blade Strike",
+      "changes": [
+        "New start animation: the sword strikes in, cuts the ELMIRAL letters open and the logo glides into the main menu.",
+        "Own sounds for the intro, the menu music starts when the logo lands.",
+        "Press any key, mouse button or gamepad button to skip it.",
+        "The Godot splash screen at start is gone.",
+        "Multiplayer: compatible with 0.14.0."
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "date": "2026-10-30",
+      "title": "The Witch's New Paths",
+      "changes": [
+        "Three new Witch specializations: Blood Witch, Shadow Witch and Forest Witch, each with its own talent tree.",
+        "Blood Witch: Bloodburst bursts on the foe and breeds Blood Spawn that run to foes and explode. Blood Leech heals you for 30% of its damage. Critical hits heal you.",
+        "Shadow Witch: Shadow Bolt, and Shadow Volley fires 5 bolts in a fan. Critical hits call Shadow Spirits at the foe that foes cannot hit.",
+        "Forest Witch: Creeping Vines hit every foe in their way and slow them. Rootlings lash foes with vines. Thorn Aura hurts foes that strike you or your Rootlings in melee.",
+        "Necromancer talents: level 12 now gives 5x +3% critical hit chance, level 18 now gives 5x +2% attack speed.",
+        "Multiplayer: everyone needs version 0.14.0."
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "date": "2026-10-30",
+      "title": "Balancing Notes 0.12",
+      "changes": [
+        "Talents at level 6 and 18 now have 5 ranks instead of 3. Each rank gives less, so the full talent gives the same as before.",
+        "The level 24 damage talent now gives +5% damage per rank instead of +10%.",
+        "Warriors build more Rage with skill 1 and their skill 2 costs more: Sentinel 10 and 40, Knight 15 and 45, Executioner 15 and 50, Pikeman 10 and 35.",
+        "Rogue skill 2 costs more Energy: Samurai 55, Thief 45, Ninja 65.",
+        "Ranger skill 2 costs more Focus: Amazone 70, Marksman 45, Huntress 50, Crossbowman 55.",
+        "Mage skill 2 costs more mana: Storm Mage 40, Frost Mage 45, Fire Mage 45, Arcanist 35. Raise Skeleton costs 35 Corruption.",
+        "The talents that make skill 2 cheaper now use the new costs, for example Light Step: 55 to 40.",
+        "Assassin: Light Fan is replaced by Piercing Fan: every dagger of Dagger Fan flies on through one more foe.",
+        "Assassin and Thief: Virulence now makes your poisons deal 50% more damage instead of stacking higher.",
+        "Multiplayer: everyone needs version 0.13.0."
+      ]
+    },
+    {
+      "version": "0.12.1",
+      "date": "2026-10-30",
+      "title": "The Dungeon Portal",
+      "changes": [
+        "New dungeon portal: every dungeon is a banner with its boss and one gem per cleared difficulty.",
+        "The page beside it shows the dungeon's story, an example map, the boss, the rare foe with its chance and the foes you will meet.",
+        "Difficulty cards show the level, your clears and best time, the loot bonus and the rare foe chance.",
+        "Gamepad: up and down pick the dungeon, left and right (or LB and RB) the difficulty, A starts, B closes.",
+        "Animated: the chosen dungeon glows, the map draws itself room by room and bosses and foes move."
+      ]
+    },
+    {
+      "version": "0.12.0",
+      "date": "2026-10-28",
+      "title": "Great Halls and Rare Foes",
+      "changes": [
+        "New dungeon layout: every dungeon is now built around a Great Hall with a ring of rooms. Rooms are a bit bigger, corridors wider, and there are about 60% more foes.",
+        "The Great Hall never leads straight to the boss. You have to go around the ring.",
+        "25 new foes across all four dungeons, such as Skeleton Archers, Goblin Bombers, Orc Berserkers, Serpent Priestesses, Crystal Brutes and Spark Slugs. Ghouls, Bog Slimes and Drowned Priests got new looks and colours.",
+        "Foes now have real skills: leaps, bombs, traps, nets, beams, hooks, heals, summons, war banners and more. Every skill is shown before it hits.",
+        "Healers and summoners can be stopped: hit them while they cast.",
+        "New boss looks and four attacks each for the Crypt Warden, the Mire Ogre, the Sunken Colossus and the Stormheart.",
+        "Shifting Depths: when the Stormheart rages at 50% life, the Depth Horror rises to join it. You win only when both are dead.",
+        "Rare foes: each dungeon can have a rare foe with special attacks: 15% on Easy, 20% on Normal, 25% on Hard and 30% on Nightmare. It always drops a Rare item or better and double gold.",
+        "Rare foes are shown with a crown on the map (M) and have their own achievements.",
+        "New effects on heroes: Root, Water Prison (an ally can free you) and Death Mark (share the blast with your friends).",
+        "Multiplayer: not compatible with 0.11.x. Everyone has to update."
+      ]
+    },
+    {
+      "version": "0.11.1",
+      "date": "2026-10-28",
+      "title": "Choose Your Hero",
+      "changes": [
+        "Character selection: clicking a saved hero with the mouse now only selects it. Press Play or double click the selected hero to enter the game.",
+        "Gamepad and keyboard work as before.",
+        "Multiplayer: compatible with 0.11.0."
+      ]
+    },
+    {
+      "version": "0.11.0",
+      "date": "2026-10-27",
+      "title": "The Star Path",
+      "changes": [
+        "New talent trees: every specialization has its own Star Path in the Skills window (U). You get 1 talent point per level, from level 1 to 30.",
+        "The talents replace the old skill upgrades at level 5 and 10. Your heroes get their points back and can spend them right away.",
+        "Some steps let you pick one of two talents. You can take points back and reset the whole tree for free in town.",
+        "Warriors now fight with Rage: Sword Swing and the other first skills build it, the second skill spends it.",
+        "Rogues now have Energy (100, +15 per second) and Rangers Focus (100, +10 per second).",
+        "The second skill of Warriors, Rogues and Rangers has no cooldown any more. It costs Rage, Energy or Focus instead.",
+        "Amazone: the passive now gives +10% critical hit chance (was 5%).",
+        "Ninja: the new passive Deadly Stars makes critical hits deal 180% instead of 150%. The second roll charge is gone.",
+        "Necromancer: Soul Bolt deals 130% of your Attack.",
+        "Spells of foes, such as novas and chain lightning, can only be blocked by the Sentinel's Bulwark talent.",
+        "Multiplayer: not compatible with 0.10.x. Everyone has to update."
+      ]
+    },
+    {
+      "version": "0.10.1",
+      "date": "2026-10-25",
+      "title": "Bones and venom",
+      "changes": [
+        "Foes now fight the Necromancer's skeletons too. A Skeleton Warrior has 40% of the Witch's life, Mages and Archers 20%, a Rat 5%.",
+        "Skeletons keep a little space between each other instead of standing inside one another.",
+        "Deleting a character only asks \"Are you sure?\" with Yes and No. No more typing the name.",
+        "Assassin: new passive Venom. Every hit of Twin Stab and Dagger Fan poisons the foe for 12.5% of your Attack per second for 4 s, stacking up to 10 times. It replaces Deadly Precision.",
+        "Assassin: Dagger Fan deals 100% of your Attack (was 70%).",
+        "Assassin: the Dagger Fan upgrade Bleed is now Pierce: each dagger hits up to 5 foes.",
+        "Assassin: the Twin Stab upgrade Poison is now Deadly Venom: its poison deals 25% per second instead of 12.5%.",
+        "Multiplayer: still works with 0.10.0, but the host's version decides the rules, so everyone should update."
+      ]
+    },
+    {
+      "version": "0.10.0",
+      "date": "2026-10-25",
+      "title": "The Witch rises",
+      "changes": [
+        "New class: the Witch, with Health and Mana like the Mage. Her standard attack reaches 120 at 200 px/s.",
+        "Her first path is the Necromancer, who draws on Corruption instead of mana.",
+        "Soul Bolt: a green bolt for 160% of your Attack. Upgrades: +20% damage, Corruption leech or a 30% slow.",
+        "Raise Skeleton: up to 3 Skeleton Warriors for 25 Corruption, no cooldown. They attack the foe you hit last and fall apart after 5 hits. Upgrades: Skeleton Mages, Skeleton Archers or 2 more hits.",
+        "Passive Rat Swarm: every critical hit raises a fast Skeleton Rat (up to 6) that bites 3 times.",
+        "Three more Witch paths are coming soon.",
+        "Dash cooldowns: Warriors, Mages and the Witch 3 s, Rangers 2 s (Crossbowman 3 s), Assassin 2 s per charge, Arcanist 3 s per charge.",
+        "Mages: critical hit chance 8% to 15% (the Witch too).",
+        "Frost Mage: Cold Snap now reaches 150 (was 100).",
+        "Storm Mage: Ball Lightning deals 165% of your Attack (was 120%).",
+        "The mana orb is now a deep blue and no longer turns white while it refills or drains.",
+        "Multiplayer: everyone needs version 0.10.0 to play together."
+      ]
+    },
+    {
+      "version": "0.9.9",
+      "date": "2026-10-25",
+      "title": "The hero book, finished",
+      "changes": [
+        "Character, Skills, Journal and Party now look like the rest of the Arcane Blade book.",
+        "Character: a big medallion with your hero, your level gem, attributes and records.",
+        "Skills: one card per skill with its three upgrades to pick from, plus your passive and your dash.",
+        "Journal: quests with progress bars, every dungeon and difficulty at a glance, achievements as medals.",
+        "Party: a card for every hero in your party and the Steam lobby below.",
+        "LB / RB now switch the book tabs from the inventory too, and the inventory is easier to move through with a controller.",
+        "The key and controller button pictures are back everywhere: on the action bar, the book tabs, the close button and the hints.",
+        "The life and mana orbs now sit right on the ends of the action bar, with the XP bar above it."
+      ]
+    },
+    {
+      "version": "0.9.8",
+      "date": "2026-10-25",
+      "title": "A new look: Arcane Blade",
+      "changes": [
+        "The whole in-game interface has a new look in violet glass with a gold rim, matching the main menu.",
+        "Top left: a bigger round portrait with your level on a round gem.",
+        "The action bar is a console between the orbs, with the XP bar above it and clear key labels over every slot.",
+        "Quests hang as a banner on the right, the boss bar is now a sword blade.",
+        "The chat is smaller and sits in the bottom-left corner next to the life orb.",
+        "Inventory, Character, Skills, Journal and Party are one book with tabs. Switch with a click, their keys or LB / RB.",
+        "New Character tab (key C): your hero, attributes and records.",
+        "The inventory shows your hero in a rune circle with the five equipment slots around it. Drag an item onto a slot to wear it, click a slot to take it off.",
+        "The pause menu and settings got the new look too; the settings tabs are now a list on the left."
+      ]
+    },
+    {
+      "version": "0.9.7",
+      "date": "2026-10-24",
+      "title": "Bleeding and new ranges",
+      "changes": [
+        "Every bleed now deals 20% of your Attack as damage per second for 4 s, for all classes and sources.",
+        "Ranges and projectile speeds were reworked: Shield Bash 24, Samurai Slash 32, Shuriken 90, Shuriken Storm 70 all around you, Ball Lightning 125 (Far: 150).",
+        "Ranger arrows: Amazone and Huntress Shot reach 180, Marksman Shot 200 and Aimed Shot 250. Arrows fly at 250, a fully drawn Aimed Shot at 350.",
+        "Crossbowman: Crossbow Bolt reach 120 at speed 200 (Velocity: 250, Point Blank: reach 100), Explosive Bolt reach 120.",
+        "Meteor, Arcane Burst and Arrow Barrage can be placed 30% less far. Crossbow Bolt deals 110%, Chain Lightning 165% but flies slower.",
+        "Cold Snap always deals 180%, charging only widens the burst. Frost Nova now appears where the Blink starts, like the caltrops; both have radius 40."
+      ]
+    },
+    {
+      "version": "0.9.6",
+      "date": "2026-10-24",
+      "title": "New music",
+      "changes": [
+        "The main menu has new music: \"Lantern Jig\", a lively tune with lute, fiddle and flute.",
+        "Lantern Cross has its own town song: \"Fireflies\" by rxdley."
+      ]
+    },
+    {
+      "version": "0.9.5",
+      "date": "2026-10-24",
+      "title": "New patch notes and gamepad fixes",
+      "changes": [
+        "After an update you now see a small card with only the new version's notes. \"All patch notes\" opens the full list.",
+        "The patch notes list shows every update as a bar, grouped by version. Click it (or press A) to fold its notes open or shut, LB and RB jump between updates. The list scrolls and always fits on the screen.",
+        "Gamepad, character creator: A locks the class you picked, so walking over the other classes to \"Next\" no longer changes it. Press A on it again to choose another class.",
+        "Gamepad, hero selection: LB and RB switch between slots 1-5 and 6-10."
+      ]
+    },
+    {
+      "version": "0.9.4",
+      "date": "2026-10-24",
+      "title": "The Hall of Heroes",
+      "changes": [
+        "Choosing a character looks completely new: your heroes stand side by side on glowing rune pedestals, and the one you pick steps into a beam of light in its colour.",
+        "Every hero holds the weapon it really has equipped. The Sentinel also carries its shield and the Assassin both daggers. Legendary and mythic weapons sparkle.",
+        "Click a hero (or move to it with the gamepad) to pick it; click it again or press A to play. Play, Backups and Delete are in the bar at the bottom. Switching pages slides the heroes in."
+      ]
+    },
+    {
+      "version": "0.9.3",
+      "date": "2026-10-24",
+      "title": "Shorter tooltips",
+      "changes": [
+        "The tooltip over a specialization is now short: its description and the names of its two skills. Everything else is shown on the page itself."
+      ]
+    },
+    {
+      "version": "0.9.2",
+      "date": "2026-10-24",
+      "title": "A new character creator",
+      "changes": [
+        "Creating a hero looks completely new: your class stands big on a glowing rune altar with a beam of light in its colour, and the classes and specializations are medallions in a bar at the bottom.",
+        "The class step shows the stats as bars and the specializations of the class. The specialization step shows both skills with icons and their upgrades; point at an upgrade to see what it does.",
+        "Gamepad: in the specialization step left and right switch the specialization, down goes to Begin Adventure."
+      ]
+    },
+    {
+      "version": "0.9.1",
+      "date": "2026-10-23",
+      "title": "A brand new main menu",
+      "changes": [
+        "The main menu has a completely new look: a new ELMIRAL logo with a sword and a glowing violet aura, drifting sparks over the town, a big Continue card in the middle and the other entries in a bar at the bottom.",
+        "Keyboard and gamepad work as before: up and down move through all entries."
+      ]
+    },
+    {
+      "version": "0.9.0",
+      "date": "2026-10-23",
+      "title": "Cold Snap, a new settings menu and many fixes",
+      "changes": [
+        "Frost Mage: the second skill is now Cold Snap, a big chargeable ice orb that bursts on impact and freezes the foes around it. Upgrades: Deep Chill (slows instead of freezing, more damage), Efficiency (less mana) and Wide Burst (bigger burst).",
+        "Storm Mage: the Lightning Bolt is quicker, passes through one foe and its chain lightning jumps further and looks better. The Attack Speed upgrade is now Stun. Ball Lightning can be charged: twice the size and more damage, but slower.",
+        "Fire Mage: the Fireball is slower but hits harder. Arcanist: Arcane Burst deals 35% more damage and its Range upgrade is now Radius.",
+        "Crossbowman: the Explosive Bolt's blast is twice as big, and the caltrops now land where the roll starts, twice as wide.",
+        "Ninja: the passive gives two rolls in a row, and the second skill is now Shuriken Storm, a dense ring of stars all around you.",
+        "If you had picked Attack Speed (Storm Mage) or Range (Arcanist), pick a new upgrade in town.",
+        "Settings: new tabs Gameplay, Display, HUD, Audio, Aim & Cursor, Keyboard & Mouse, Gamepad and Admin, and the window keeps one size.",
+        "Party: new member cards in the top left with health, level and where they are, and optional life bars over your party members.",
+        "You can throw items away in the inventory (press Discard twice, locked items stay).",
+        "The town has paths to every place, and a big new fountain sits right in the middle of the square.",
+        "The portal is back to its old size, with calm floating rune stones and a slower swirl.",
+        "Gamepad: placed spells like the Meteor always land at full range. B or Esc closes the map.",
+        "Fixed: in the Shifting Depths a party member no longer flies across the map after going down a level. Names over players and NPCs no longer jitter while walking.",
+        "Multiplayer: everyone needs version 0.9.0 to play together."
+      ]
+    },
+    {
+      "version": "0.8.2",
+      "date": "2026-10-23",
+      "title": "Attack speed for Executioner and Pikeman",
+      "changes": [
+        "Executioner: the Axe Cleave is 15% slower (0.54 s to 0.62 s per swing).",
+        "Pikeman: the Pike Thrust is 15% faster (0.58 s to 0.49 s per thrust), also with the Attack Speed and Heavy Thrust upgrades.",
+        "Multiplayer stays compatible with 0.8.1."
+      ]
+    },
+    {
+      "version": "0.8.1",
+      "date": "2026-10-23",
+      "title": "A new town and a new portal",
+      "changes": [
+        "The town is rebuilt and much bigger: you arrive right at the portal, the fountain square sits in the middle, and the Forge Row, the Market, the Proving Grounds, the Lantern Inn and the living quarters each have their own place.",
+        "The big map (M) shows the names of the town's districts.",
+        "The dungeon portal has a new look: a carved stone arch with lanterns, glowing runes, floating rune stones and a swirling starry vortex that wakes up when you come close.",
+        "A river runs through the south of the town, with a stone bridge on the South Road and reeds on its banks.",
+        "Multiplayer: everyone needs version 0.8.1 to play together."
+      ]
+    },
+    {
+      "version": "0.8.0",
+      "date": "2026-10-23",
+      "title": "Four new specializations, passives and duels",
+      "changes": [
+        "Four new specializations, one more for every class: Storm Mage (chain lightning and a chargeable ball lightning), Pikeman (spear thrust and leap strike), Ninja (shuriken, triple star and a shuriken storm after every roll) and Crossbowman (bleeding bolts, explosive bolt and caltrops after the roll).",
+        "New weapon lines for them: 15 spears, 15 shuriken and 15 crossbows, in the shops and as loot.",
+        "Every specialization has a passive that is always on, for example Block for the Sentinel, +25% gold for the Thief and 2 Blink charges for the Arcanist. You see it in the Skills window and when you choose your specialization.",
+        "Duels: when exactly two players stand in the ring in town, a 3 s countdown starts. The loser stays at 1 HP and both are healed afterwards. Leaving the ring ends the duel. Outside the ring players never hurt each other.",
+        "Three training dummies in town show your damage per second.",
+        "Dark Knight is now called Executioner. The Sentinel wears blue armour with a golden plume.",
+        "Meteor upgrade \"Echo\" is now \"Radius\": the blast is 30% wider.",
+        "Gamepad: Skill 1 is now LT and Skill 2 is RT. The mouse cursor hides while you play with a gamepad. New setting: dash where you walk or where you aim.",
+        "The life and mana orbs sit right next to the action bar. Bleed and poison stacks show under the boss bar.",
+        "Foes drop half as many random items and potions. Chests, gold and guaranteed drops stay the same.",
+        "Everyone walks a little faster (74 to 78).",
+        "Class balance: new damage per specialization, the mage gets mana back with every spell, the Assassin has 2 dash charges, the Amazone's barrage comes in 3 waves, and more bleed on many skills.",
+        "The katana now flips correctly to the right and daggers point up.",
+        "Not compatible with 0.7.x in multiplayer: everyone needs 0.8.0."
+      ]
+    },
+    {
+      "version": "0.7.1",
+      "date": "2026-10-18",
+      "title": "Rune Hall",
+      "changes": [
+        "Slot upgrades moved from Borin's forge to a new townsman: Torvik Runeheart in the Rune Hall.",
+        "The rune level belongs to the equipment slot and shows as \"Weapon slot +3\": it stays when you change gear.",
+        "Arcanist: \"Free Cast\" (a 25% chance for a free burst) is replaced by \"Efficiency\": the burst always costs 25% less mana (19 instead of 25). If you had picked Free Cast, you now have Efficiency.",
+        "Works together with 0.7.0 in multiplayer."
+      ]
+    },
+    {
+      "version": "0.7.0",
+      "date": "2026-10-18",
+      "title": "Random dungeons, new mage, shared vault",
+      "changes": [
+        "Every dungeon is built new on each entry, like the Shifting Depths. The party plays the host's layout.",
+        "On Hard and Nightmare the foes of every dungeon have extra skills: charges, novas, thrown knives, frost and more.",
+        "The mage casts like the Marksman: a short cast time, then a bigger and stronger orb, at a slower pace.",
+        "Mage spells have no cooldowns any more, only mana and a short global cooldown between casts.",
+        "Mana potions are gone. Old ones in your bags still work and can be sold.",
+        "Skill upgrades unlock at level 5 (skill 1) and level 10 (skill 2) instead of 10 and 20.",
+        "New cooldowns: Rogue roll 2 s, Ranger dash 4 s, Fan Shot and Dagger Fan 4.5 s, Arrow Barrage and Whirlwind 5 s.",
+        "The Samurai and the shortbow attack a little slower; their old speed is now what the upgrade gives.",
+        "Stormheart has more health.",
+        "Blink takes you right through enemies.",
+        "The Frost Mage's slow also slows the attacks of enemies, not only their movement.",
+        "Bleed and poison stack, each stack weaker. A red or green dot with the stack count shows over the enemy.",
+        "New health bars for enemies, and every boss has its own animated bar.",
+        "Arcane Bolt is more purple.",
+        "A golden question mark shows over Captain Brenna when a quest is done, and the quest list is always shown in town.",
+        "Loot drops for every class. Gold and the vault are shared by all your characters, so the vault takes no gold any more. Your old gold and vaults are added together once.",
+        "Admin menu for testing, unlocked with a password in the settings (also with a controller).",
+        "Not compatible with 0.6.x in multiplayer: everyone needs 0.7.0."
+      ]
+    },
+    {
+      "version": "0.6.0",
+      "date": "2026-10-18",
+      "title": "New item art, Legendary and Mythic gear",
+      "changes": [
+        "Every item has new pixel art in one style, and weapons show their own picture in the hand.",
+        "Greatswords are longer and broader, katanas have a slim curved blade, and the Sentinel carries a new shield.",
+        "Bows are held across the shot, clear of the body, and show the drawn string while you aim.",
+        "New rarities above Epic: 12 Legendary and 12 Mythic items at level 30. Legendary drops from the late bosses and the Hidden Cache on Hard or higher, Mythic only on Nightmare.",
+        "A carried Legendary or Mythic weapon sheds glowing sparks that everyone in the party sees, their drops get a pillar of light and their slots shine.",
+        "New animated chests: wood for the normal chest, red and gold for the rare one.",
+        "Key hints show real key, mouse and controller button pictures.",
+        "New effects for potions, area spells, critical hits, revives and level up.",
+        "The level emblem at the action bar is gone.",
+        "Not compatible with 0.5.x in multiplayer: everyone needs 0.6.0."
+      ]
+    },
+    {
+      "version": "0.5.1",
+      "date": "2026-10-18",
+      "title": "New HUD and map",
+      "changes": [
+        "New HUD: a life orb bottom left and a mana orb bottom right (only classes with mana), with a drain effect when you lose life and a pulse at low life.",
+        "New action bar with your weapon, potions, skill 2 and dash. Cooldowns run as a dark circle with seconds. The XP line and your level sit under the bar.",
+        "New character frame top left. Party members show with level and life.",
+        "The minimap is gone. Press M for the new map in town and in dungeons: it shows the real level, a fog over what you have not seen yet, room names, you, your party, the exit, chests and the boss.",
+        "Map settings in Settings > Display: opacity, size and room names.",
+        "Press L to hide or show the quest tracker in dungeons.",
+        "Health and mana potions have a 3 second cooldown each.",
+        "Space, J and K no longer attack or cast. Attack with the left mouse button, skill 2 with the right mouse button. You can still bind your own keys.",
+        "HUD settings: orb size, numbers in the orbs, red screen edge at low life, control hints. F1 hides the whole HUD.",
+        "Works together with 0.5.0 in multiplayer."
+      ]
+    },
+    {
+      "version": "0.5.0",
+      "date": "2026-10-17",
+      "title": "Smooth aim",
+      "changes": [
+        "Smooth aim for every class: the aim arrow always follows your mouse or stick, even while you attack.",
+        "Your attack turns with the arrow until it lands or the shot leaves. Hold the button and the next attack goes where the arrow points.",
+        "The aim arrow is bigger, bright yellow and sits further from your character.",
+        "New settings tab Aim & Cursor: pick the arrow's color with red, green and blue sliders or quick colors, and set its size, distance and opacity.",
+        "Elmiral's own mouse pointer. You can switch back to the normal pointer in Aim & Cursor.",
+        "Gamepad: dead zones for the aim stick and the move stick can be set in Aim & Cursor.",
+        "Multiplayer needs 0.5.0 on every PC (0.4.x cannot join 0.5.0)."
+      ]
+    },
+    {
+      "version": "0.4.1",
+      "date": "2026-10-17",
+      "title": "Combat balancing",
+      "changes": [
+        "Normal hits no longer push foes back. Only Shield Bash, Arcane Bolt and Meteor do.",
+        "Basic attacks of every class are about 15% slower.",
+        "Mage bolts are bigger glowing orbs. Ranger arrows are smaller.",
+        "Normal foes are a little easier to hit.",
+        "Charged skills (Frost Nova, Aimed Shot) fire only when you release the key.",
+        "Fan Shot and Dagger Fan spread over 80 degrees instead of 120. Fan Shot deals 70% per arrow.",
+        "Only Marksman arrows pierce. Other arrows hit one foe.",
+        "Shorter cooldowns: Meteor 6 s, Frost Nova 5 s, Thrust 4.5 s, Lunge 4 s, Arrow Barrage 6 s. Arcane Burst now has 2 s.",
+        "Shield Bash charges a short way forward, deals 160%, stuns for 0.6 s and has a 3 s cooldown.",
+        "Cripple deals 100% and lunges forward with a new strike effect.",
+        "Dark Knight bleed deals 25% per second.",
+        "Plays together with 0.4.0, but update both PCs so the numbers match."
+      ]
+    },
+    {
+      "version": "0.4.0",
+      "date": "2026-10-17",
+      "title": "Depths, forge and quests",
+      "changes": [
+        "Endless depths: after the Stormheart, a stair beside the altar leads one depth deeper, onto a new map each time. Foes grow stronger and the loot richer with every depth.",
+        "From Depth 3, Abyssal gear (level 28, epic) can drop. Your deepest depth is saved per character.",
+        "The weaponsmith upgrades your equipment from +1 to +5 for gold. Every step adds 8% to that slot's stats.",
+        "Every specialization has its own look. The Sentinel carries a shield, the Assassin a second dagger, and skill effects take the specialization's color.",
+        "Quest board with Captain Brenna: three quests at a time, with gold and XP as rewards.",
+        "Journal (J): 26 achievements and your statistics.",
+        "Minimap in dungeons (M), with party members shown in multiplayer.",
+        "Your level shows under your name and under the names of other players.",
+        "Inventory: sort your bags, lock items so they are never sold, and sell all common or uncommon items at once.",
+        "Tips for new players (can be turned off in the settings).",
+        "Trades are safe now: if the connection drops mid-trade, nothing is lost or doubled.",
+        "Multiplayer needs 0.4.0 on every PC."
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-10-17",
+      "title": "More gear and personal loot",
+      "changes": [
+        "85 new weapons and armor pieces, 147 in total, each with its own icon.",
+        "Every piece of gear has a required level. You can only equip it once you reach that level.",
+        "Merchants sell common and uncommon gear and offer better stock after each dungeon you clear.",
+        "New merchant in town: Nissa Brightstone sells rings and amulets.",
+        "Loot now fits the dungeon and difficulty, so good gear takes longer to find. Epic items drop from Hard on.",
+        "Personal loot in multiplayer: everyone gets their own drops, which nobody else can see or take.",
+        "Patch notes in the main menu. They open once after every update.",
+        "Multiplayer needs 0.3.0 on every PC."
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-10-17",
+      "title": "Specializations and the Shifting Depths",
+      "changes": [
+        "All 12 specializations are playable, three per class, each with its own skills.",
+        "Every specialization has its own weapon type: greatswords, axes, katanas and shortbows join the game.",
+        "Existing characters choose their specialization once.",
+        "New dungeon Shifting Depths: a new layout every time you enter, with its own basalt-and-crystal look.",
+        "Every run of the Depths has a chest. Sometimes there is also a rare chest with better loot.",
+        "New boss Stormheart: chain lightning that leaps between players, and a lightning wave with gaps to step through.",
+        "Trade window shows real item cards and compares stats. All skill texts say exactly what they do.",
+        "Multiplayer needs 0.2.0 on every PC."
+      ]
+    },
+    {
+      "version": "0.1.5",
+      "date": "2026-10-16",
+      "title": "Inventory and party",
+      "changes": [
+        "All classes walk at the same speed.",
+        "New weapons and armour of party members show at once.",
+        "Inventory: first click compares, second click equips or drinks. Move items by dragging or with F / gamepad X.",
+        "Save & Main Menu now leaves the party. If the host leaves, the party closes."
+      ]
+    },
+    {
+      "version": "0.1.4",
+      "date": "2026-10-16",
+      "title": "Revive and trade",
+      "changes": [
+        "Revive a fallen party member: hold E / A next to them for 3 seconds.",
+        "Trade items and gold with party members (Party window > Trade).",
+        "The host's level now shows correctly for everyone.",
+        "The Ranger's Poison upgrade poisons with every shot.",
+        "Inside windows the D-pad only moves the selection; B closes."
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-10-16",
+      "title": "Skill upgrades",
+      "changes": [
+        "From level 10 pick 1 of 3 upgrades for skill 1, from level 20 for skill 2 (Skills window: U / D-pad up).",
+        "B goes back in every menu; shop tabs work with a controller.",
+        "The stick always walks at full speed. All classes move equally fast.",
+        "Dash cooldown: 6 seconds for Warrior and Mage, 3 seconds for Rogue and Ranger."
+      ]
+    },
+    {
+      "version": "0.1.2",
+      "date": "2026-10-16",
+      "title": "First specializations",
+      "changes": [
+        "Pick your class, then a specialization.",
+        "Every class has a dash (Shift / RB) and a second skill (right click / K / LT).",
+        "New settings with Audio, Display, Keyboard & Mouse and Gamepad tabs. Every key can be rebound."
+      ]
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-10-16",
+      "title": "In-game updates",
+      "changes": [
+        "The game now checks for updates and installs them from the main menu.",
+        "Multiplayer: party members can use potions, shops and the bank.",
+        "Short lag spikes no longer reset the boss.",
+        "The ready check waits until everyone is back in town. Fallen members watch a living party member."
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-10-12",
+      "title": "First build",
+      "changes": [
+        "Play as Warrior, Rogue or Mage.",
+        "Town with shops, bank and portal; dungeons Forgotten Crypt, Forest Ruins and Ancient Temple with bosses.",
+        "Four difficulties, levels up to 30, loot in four rarities.",
+        "Aim with the mouse."
+      ]
+    }
+  ]
+}

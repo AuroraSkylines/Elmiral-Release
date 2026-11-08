@@ -1,7 +1,7 @@
 {
-  "version": "0.19.0",
-  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.19.0-Setup.exe",
-  "size": 53126606,
-  "sha256": "df45df5740393b3c408d9546124d3ba5d47026f3c6da7f4a166e6ef4e1121031",
-  "notes": "Embers Reforged: the four Emberfall bosses as molten titans with new skills below half life, own Emberfall music, Hard removed (Normal and Nightmare remain), a Daily Rift with the same map for everyone, best times in the journal, loot filter and auto-sell, a ping key, reconnecting into the party's dungeon after a dropped connection, own buildings for the Rune Hall, Jeweler and The Last Lantern, and a narrower Frost Cone. Multiplayer: everyone needs 0.19.0."
+  "version": "0.19.1",
+  "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/Elmiral-0.19.1-Setup.exe",
+  "size": 79898423,
+  "sha256": "d31cd880b0343f19e2b612014df61a9c00cd91d422c84489e79061d493f877c7",
+  "notes": "The Launcher: Elmiral now updates through its own launcher with patch notes and one UPDATE button that downloads only the changed files, then PLAY. This one install sets it up without any questions and opens the launcher; after that there are no more installers to click through. Your characters and settings stay. Multiplayer works with 0.19.0."
 }
