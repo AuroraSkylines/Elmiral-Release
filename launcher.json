@@ -1,7 +1,7 @@
 {
   "format": 1,
   "game": {
-    "version": "0.19.1",
+    "version": "0.20.0",
     "files": [
       {
         "path": "Elmiral.exe",
@@ -13,11 +13,11 @@
       },
       {
         "path": "Elmiral.pck",
-        "size": 27644104,
-        "sha256": "4820bb2ce9bc2c800e822726dee7f612be0deafaf7223c9f5ef0520f0b301bcc",
-        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/game/0.19.1/Elmiral.pck.gz",
-        "packed_size": 24168914,
-        "packed_sha256": "7db4e3089b84413a042c6dd9767633113c65fb660d9104e6a6df822ab14a1848"
+        "size": 34213952,
+        "sha256": "f0d0bb41f5c6f5f3320da8e1831911761500d161912e452d81b90f106194d65f",
+        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/game/0.20.0/Elmiral.pck.gz",
+        "packed_size": 29583365,
+        "packed_sha256": "f663cb26c2859bc55cf7ff3bdf3f4deb35a953270c4fafed101d5dae5f1d1f7e"
       },
       {
         "path": "libgodotsteam.windows.template_release.x86_64.dll",
@@ -47,15 +47,15 @@
   },
   "patch_notes_url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/patch_notes.json",
   "launcher": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "files": [
       {
         "path": "ElmiralLauncher.exe",
-        "size": 105757720,
-        "sha256": "546216b9cb9325cb3e09d71efa25b7bc9b23cd0981867ed9d7402a4d0affc845",
-        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/launcher/1.0.0/ElmiralLauncher.exe.gz",
-        "packed_size": 38061615,
-        "packed_sha256": "b908d71d326b219cdd81e3eaf7137eac886940c494f6f2d9abf0fda0a087e674"
+        "size": 105813368,
+        "sha256": "65e8727b431957096a0cf1acf1d54b2b397ee16631619fbec1358d1602d0e29d",
+        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/launcher/1.0.1/ElmiralLauncher.exe.gz",
+        "packed_size": 38084059,
+        "packed_sha256": "1a58dc0e970d39cead0186a27de6305dfbc980fb60a9534ebeb3a12c2ecdf130"
       }
     ]
   }

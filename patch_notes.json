@@ -1,109 +1,222 @@
 {
   "_doc": "Patch notes (main menu > Patch Notes; shown once after each update, scripts/ui/patch_notes_window.gd). Newest first. version = project.godot config/version of that release, date = release day (YYYY-MM-DD), changes = short plain sentences. Add the new entry with every release (RELEASE.md).",
   "entries": [
-	{
-	  "version": "0.19.1",
-	  "date": "2026-11-08",
-	  "title": "The Launcher",
-	  "changes": [
-		"Elmiral now has its own launcher. It shows the patch notes, and one button updates the game in the background: it downloads only the files that changed, checks every file and swaps them in. No more installer to click through. Then press PLAY.",
-		"Coming from 0.19.0, this update installs the launcher by itself and then opens it. Your desktop and start menu shortcuts now start the launcher.",
-		"The update check inside the game is gone. Updates come through the launcher only.",
-		"CHECK FILES in the launcher finds missing or damaged game files and repairs them.",
-		"Your characters and settings stay where they are (in %APPDATA%\\Elmiral) and are not touched by updates.",
-		"Multiplayer: works together with 0.19.0."
-	  ]
-	},
-	{
-	  "version": "0.19.0",
-	  "date": "2026-11-08",
-	  "title": "Embers Reforged",
-	  "changes": [
-		"The four Emberfall bosses are redrawn as molten titans with their own attack and skill poses. Below half life each learns something new: Slagmaw leaps, Cinderhelm cleaves in burning lanes, the Glass Regent raises crystal spikes, the Starfall Colossus pulls you into a gravity well.",
-		"Emberfall has its own music: \"Forge March\" in the dungeons and \"Molten Fury\" for the bosses.",
-		"Hard is gone: Normal and Nightmare remain. Your Hard clears count as Normal. The Abyss Gate always runs on Nightmare and is as strong per depth as before.",
-		"Daily Rift: every day one dungeon with the same map for everyone. The first clear of the day pays double the quest reward. Look for the badge in the portal window.",
-		"Best times: your fastest clears and deepest Abyss runs are in the journal under RECORDS.",
-		"Loot filter and auto-sell (settings, Loot): hide drops below a rarity and sell them automatically in town. Epic and better items and potions are never filtered.",
-		"Ping: press G, the middle mouse button or R3 to mark a spot for your party.",
-		"Multiplayer: if your connection drops, the game reconnects by itself and puts you back into the party's dungeon next to the host. Foes already defeated stay defeated. A warning shows when the connection is unstable, and the party window shows your ping.",
-		"The Rune Hall, the Jeweler and The Last Lantern have their own buildings in town.",
-		"Frost Mage: Frost Cone is shorter and narrower (reach 95, 65°; Wide Cone 95°).",
-		"Multiplayer: everyone needs 0.19.0 (does not work together with 0.18.x)."
-	  ]
-	},
-	{
-	  "version": "0.18.0",
-	  "date": "2026-11-06",
-	  "title": "Classes Anew",
-	  "changes": [
-		"New talent trees for every specialization: six talents from level 5 to 30, one point every five levels, a choice of two at levels 5 and 10.",
-		"Life and resource bars now sit on the name plates instead of orbs; your own bars can be shown under your character.",
-		"Party cards are compact with READY / NOT READY and notes when someone joins or leaves. In town you see the attacks, dashes, skills and summons of the others.",
-		"New results screen with your loot shown as item slots.",
-		"Foes are tougher (+40% life, +10% damage) and scale with the party: +50% life and +20% damage for each extra member.",
-		"Great Halls change their layout with every run. New level requirements: 1/3/5/7 in the first world, 10/12/14/16 in Emberfall; Nightmare opens after Normal.",
-		"Drops from foes, chests, rare foes and the Abyss favour gear your class can use. Shops only sell gear your class can use, with slot and weapon filters.",
-		"New quest board with Captain Otto and three new quests every day.",
-		"Amazone: new look \"Silver Huntress\". Mage: 150 mana and 10 mana per second. Frost Mage: Frost Cone replaces Cold Snap, faster Frostbolt. Storm Mage: Ball Lightning is always fully charged.",
-		"Bleed and poison stack up to 5 times; bleed deals 5% (one-handed, shortbows) or 10% (two-handed, longbows, crossbows) per second for 5 s, poison 5% per second for 5 s.",
-		"New looks for the shops, the Rune Hall, the vault, the pause menu and the credits. Key hints light up when you press them and follow your device.",
-		"Name plates no longer shake while walking. Showing levels under names is now a setting (off by default).",
-		"Multiplayer: everyone needs 0.18.0 (does not work together with 0.17.x)."
-	  ]
-	},
-	{
-	  "version": "0.17.0",
-	  "date": "2026-11-01",
-	  "title": "Emberfall",
-	  "changes": [
-		"A second world: Emberfall, where a star fell. Four new dungeons - Cinder Warrens (Lv 12), Ashen Bastion (Lv 14), Obsidian Vault (Lv 16) and Heart of the Star (Lv 18) - each with its own look, new foes, a rare foe and a new boss: Slagmaw, Marshal Cinderhelm, the Glass Regent and the Starfall Colossus.",
-		"New dungeon in the first world: the Hollow Mines (Lv 10) with goblin diggers, delvers, ore slimes and Rockjaw, a troll of living stone.",
-		"The Portal Square has three gates: Lantern Cross (first world), the Emberfall Gate (opens at level 12 once you have cleared the Hollow Mines) and the Abyss Gate in its own dark court.",
-		"Only three difficulties: Normal, Hard and Nightmare. Every dungeon has a fixed level on each one (Normal = levels 1-18, Hard 19-26, Nightmare 26-30). Clears on Easy count as Normal.",
-		"The Shifting Depths are now reached through the Abyss Gate from level 25, without a difficulty choice - the depth is the difficulty. Every fifth depth is guarded by the Depth Horror.",
-		"XP comes from the dungeon's level: early dungeons level you fast, Nightmare slowly towards level 30.",
-		"Armour types: Warriors wear plate, Rogues and Rangers leather, Mages and Witches cloth. Equipped armour of another type is reforged into your type of the same level.",
-		"Mages now cast with wands; staves belong to the Witches. An equipped staff becomes the wand of its tier.",
-		"Loot favours armour your class can wear.",
-		"All player sounds are new: casts, hits, damage, dashes and more for every class and specialization.",
-		"Multiplayer: everyone needs 0.17.0 (does not work together with 0.16.x)."
-	  ]
-	},
-	{
-	  "version": "0.16.1",
-	  "date": "2026-11-01",
-	  "title": "Portal Oath",
-	  "changes": [
-		"New ready check: the heroes stand armed on rune pedestals before the open portal, with the boss waiting inside.",
-		"Whoever is ready hops, the runes turn and a beam in the spec colour shoots into the portal.",
-		"The portal spins faster with every ready hero; the countdown 3-2-1 and GO! show big inside it, then the party is pulled in.",
-		"Once the countdown runs it can no longer be cancelled by accident.",
-		"Multiplayer: works together with 0.16.0."
-	  ]
-	},
-	{
-	  "version": "0.16.0",
-	  "date": "2026-11-01",
-	  "title": "Sharper Edges",
-	  "changes": [
-		"Mages: 100 mana at level 1 (+5 per level) that refills by 5% of your maximum every second; attacks no longer give mana back.",
-		"Mages: Skill 1 is 15% faster and every mage deals 15% more damage.",
-		"Fire Mage: Fireball explodes 20% wider and the Meteor strikes a 20% wider area. Arcanist: Arcane Burst is 30% wider.",
-		"Storm Mage: the level 18 talent is now Swiftness (+2% attack speed per rank, 5 ranks).",
-		"Amazone: now wields shortbows (an equipped bow is reforged into a shortbow of the same tier) and shoots faster. The Huntress still shoots 10% faster than her.",
-		"Amazone: Arrow Barrage makes foes bleed.",
-		"Every Rogue (Samurai, Thief, Ninja too) now has 2 dash charges. Assassin: Dagger Fan reaches half as far.",
-		"Ninja: the magic \"pling\" on throws is gone.",
-		"Blood Witch: Blood Leech is now a long ray of blood from you to the foe that drains its life.",
-		"Shadow Witch +10% damage. Forest Witch +10% damage; Creeping Vines are twice as wide.",
-		"Forest Witch talents: level 3 offers more damage or +20% attack speed for the vines, level 15 makes them hold foes in place.",
-		"Rootlings deal 20% more damage, have 20% more health and lash once more.",
-		"Summons walk at least as fast as you.",
-		"Gamepad: the cursor no longer jumps onto Sort on the way to the top right bag slot.",
-		"Multiplayer: everyone needs 0.16.0 (does not work together with 0.15.x)."
-	  ]
-	},
+    {
+      "version": "0.20.0",
+      "date": "2026-11-08",
+      "title": "Frostmere",
+      "changes": [
+        "A third world: Frostmere. Its gate on the Portal Square opens at level 20 once you have cleared the Heart of the Star. Two dungeons wait behind it: Rimewood Hollow (level 20) with the ice wolf Rimefang, and the Glacier Crypt (level 22) with the Hoarfrost King in his glacier armour. Both bosses are big, hand-drawn and show every attack, and Frostmere has its own music for the dungeons and the boss fights. 14 new foes and 2 new rare foes. Their frost only slows you a little.",
+        "Lantern Cross is rebuilt: rows of timber houses, a full market, gardens and fields, a watermill and the Lantern Shrine with a chapel, the founder's statue and memorial stones. 13 townsfolk walk the streets: talk to them (E) and read the plaques to learn how the town began.",
+        "Elmiral now speaks German: the game asks for your language on the first start (Deutsch or English). Change it any time under Settings > Interface > Language.",
+        "Paragon: after level 30 your XP keeps counting. Every Paragon rank gives one point for Might, Vitality, Guard or Precision (Character window, PARAGON). Points can be moved again in town. Nothing is ever reset.",
+        "Dungeon affixes: Nightmare runs get one affix, the Abyss Gate one from depth 5 and two from depth 15, and the Daily Rift has its own affix of the day. Explosive, Armored, Twin Rares, Hasty and Vampiric. Each affix gives +10% XP and gold. The HUD shows them during the run.",
+        "Every Legendary and Mythic item now has its own effect, for example Opening Blow, Giant Slayer, Reaper, Last Stand, Thorn Mail, Frost Trail or Golden Touch. Mythic items have the stronger version. No random procs: the effects always work.",
+        "New Accessibility tab in the settings: colour-blind modes for telegraphs and rarities (with stripes and letters, not only colour), fewer flashes, screen shake, bigger damage numbers.",
+        "New welcome for new characters with tips you can skip. The tips now also cover skill 2, the skills window, the map and the Portal Oath.",
+        "Party window: a RECORDS board shows the best times and deepest depth of every member side by side.",
+        "Skill texts were checked against the real numbers and fixed where they were wrong. Every dash now names its cooldown.",
+        "Boss goals no longer say \"Defeat the The ...\".",
+        "Multiplayer: both players need 0.20.0."
+      ],
+      "title_de": "Frostmere",
+      "changes_de": [
+        "Eine dritte Welt: Frostmere. Ihr Tor am Portalplatz öffnet sich ab Stufe 20, sobald du das Herz des Sterns geschafft hast. Zwei Dungeons warten dahinter: die Rimewood-Senke (Stufe 20) mit dem Eiswolf Rimefang und die Gletschergruft (Stufe 22) mit dem Raureifkönig in seiner Gletscherrüstung. Beide Bosse sind groß, von Hand gezeichnet und zeigen jeden Angriff, und Frostmere hat eigene Musik für die Dungeons und die Bosskämpfe. 14 neue Feinde und 2 neue seltene Feinde. Ihr Frost verlangsamt dich nur ein wenig.",
+        "Lantern Cross ist neu gebaut: Reihen von Fachwerkhäusern, ein voller Markt, Gärten und Felder, eine Wassermühle und der Laternenschrein mit Kapelle, der Statue der Gründerin und Gedenksteinen. 13 Stadtbewohner laufen durch die Gassen: Sprich mit ihnen (E) und lies die Tafeln, um zu erfahren, wie die Stadt entstand.",
+        "Elmiral spricht jetzt Deutsch: Das Spiel fragt beim ersten Start nach deiner Sprache (Deutsch oder English). Ändern kannst du sie jederzeit unter Einstellungen > Oberfläche > Sprache.",
+        "Paragon: Nach Stufe 30 zählen deine EP weiter. Jeder Paragon-Rang gibt einen Punkt für Macht, Vitalität, Wehr oder Präzision (Charakterfenster, PARAGON). Punkte lassen sich in der Stadt umverteilen. Nichts wird je zurückgesetzt.",
+        "Dungeon-Affixe: Albtraum-Läufe bekommen ein Affix, das Abgrundtor eines ab Tiefe 5 und zwei ab Tiefe 15, und der Tägliche Riss hat sein eigenes Tagesaffix. Explosiv, Gepanzert, Doppelte Seltene, Hastig und Vampirisch. Jedes Affix gibt +10% EP und Gold. Das HUD zeigt sie während des Laufs.",
+        "Jeder legendäre und mythische Gegenstand hat jetzt einen eigenen Effekt, zum Beispiel Eröffnungsschlag, Riesentöter, Schnitter, Letztes Gefecht, Dornenpanzer, Frostspur oder Goldene Hand. Mythische Gegenstände haben die stärkere Version. Keine Zufalls-Procs: Die Effekte wirken immer.",
+        "Neuer Reiter Barrierefreiheit in den Einstellungen: Farbenblind-Modi für Warnzeichen und Seltenheiten (mit Streifen und Buchstaben, nicht nur Farbe), weniger Blitze, Bildschirmwackeln, größere Schadenszahlen.",
+        "Neue Begrüßung für neue Charaktere mit überspringbaren Tipps. Die Tipps erklären jetzt auch Fähigkeit 2, das Fähigkeitenfenster, die Karte und den Portaleid.",
+        "Gruppenfenster: Eine REKORDE-Tafel zeigt Bestzeiten und tiefste Tiefe aller Mitglieder nebeneinander.",
+        "Fähigkeitstexte wurden mit den echten Zahlen abgeglichen und wo nötig korrigiert. Jeder Sprint nennt jetzt seine Abklingzeit.",
+        "Boss-Ziele sagen nicht mehr \"Defeat the The ...\".",
+        "Mehrspieler: Beide Spieler brauchen 0.20.0."
+      ]
+    },
+    {
+      "version": "0.19.1",
+      "date": "2026-11-08",
+      "title": "The Launcher",
+      "changes": [
+        "Elmiral now has its own launcher. It shows the patch notes, and one button updates the game in the background: it downloads only the files that changed, checks every file and swaps them in. No more installer to click through. Then press PLAY.",
+        "Coming from 0.19.0, this update installs the launcher by itself and then opens it. Your desktop and start menu shortcuts now start the launcher.",
+        "The update check inside the game is gone. Updates come through the launcher only.",
+        "CHECK FILES in the launcher finds missing or damaged game files and repairs them.",
+        "Your characters and settings stay where they are (in %APPDATA%\\Elmiral) and are not touched by updates.",
+        "Multiplayer: works together with 0.19.0."
+      ],
+      "title_de": "Der Launcher",
+      "changes_de": [
+        "Elmiral hat jetzt einen eigenen Launcher. Er zeigt die Patch Notes, und ein Knopf aktualisiert das Spiel im Hintergrund: Er lädt nur geänderte Dateien, prüft jede Datei und tauscht sie aus. Kein Installer mehr zum Durchklicken. Dann SPIELEN drücken.",
+        "Von 0.19.0 aus installiert dieses Update den Launcher selbst und öffnet ihn dann. Deine Verknüpfungen auf dem Desktop und im Startmenü starten jetzt den Launcher.",
+        "Die Update-Prüfung im Spiel ist weg. Updates kommen nur noch über den Launcher.",
+        "DATEIEN PRÜFEN im Launcher findet fehlende oder beschädigte Spieldateien und repariert sie.",
+        "Deine Charaktere und Einstellungen bleiben, wo sie sind (in %APPDATA%\\Elmiral), und werden von Updates nicht angefasst.",
+        "Mehrspieler: funktioniert zusammen mit 0.19.0."
+      ]
+    },
+    {
+      "version": "0.19.0",
+      "date": "2026-11-08",
+      "title": "Embers Reforged",
+      "changes": [
+        "The four Emberfall bosses are redrawn as molten titans with their own attack and skill poses. Below half life each learns something new: Slagmaw leaps, Cinderhelm cleaves in burning lanes, the Glass Regent raises crystal spikes, the Starfall Colossus pulls you into a gravity well.",
+        "Emberfall has its own music: \"Forge March\" in the dungeons and \"Molten Fury\" for the bosses.",
+        "Hard is gone: Normal and Nightmare remain. Your Hard clears count as Normal. The Abyss Gate always runs on Nightmare and is as strong per depth as before.",
+        "Daily Rift: every day one dungeon with the same map for everyone. The first clear of the day pays double the quest reward. Look for the badge in the portal window.",
+        "Best times: your fastest clears and deepest Abyss runs are in the journal under RECORDS.",
+        "Loot filter and auto-sell (settings, Loot): hide drops below a rarity and sell them automatically in town. Epic and better items and potions are never filtered.",
+        "Ping: press G, the middle mouse button or R3 to mark a spot for your party.",
+        "Multiplayer: if your connection drops, the game reconnects by itself and puts you back into the party's dungeon next to the host. Foes already defeated stay defeated. A warning shows when the connection is unstable, and the party window shows your ping.",
+        "The Rune Hall, the Jeweler and The Last Lantern have their own buildings in town.",
+        "Frost Mage: Frost Cone is shorter and narrower (reach 95, 65°; Wide Cone 95°).",
+        "Multiplayer: everyone needs 0.19.0 (does not work together with 0.18.x)."
+      ],
+      "title_de": "Glut neu geschmiedet",
+      "changes_de": [
+        "Die vier Emberfall-Bosse sind als geschmolzene Titanen neu gezeichnet, mit eigenen Angriffs- und Fähigkeitsposen. Unter halbem Leben lernt jeder etwas Neues: Slagmaw springt, Cinderhelm spaltet in brennenden Bahnen, der Glasregent lässt Kristallspitzen wachsen, der Sternfall-Koloss zieht dich in einen Schwerkraftsog.",
+        "Emberfall hat eigene Musik: \"Forge March\" in den Dungeons und \"Molten Fury\" für die Bosse.",
+        "Schwer ist weg: Normal und Albtraum bleiben. Deine Abschlüsse auf Schwer zählen als Normal. Das Abgrundtor läuft immer auf Albtraum und ist pro Tiefe so stark wie vorher.",
+        "Täglicher Riss: jeden Tag ein Dungeon mit derselben Karte für alle. Der erste Abschluss des Tages zahlt die doppelte Questbelohnung. Achte auf das Abzeichen im Portalfenster.",
+        "Bestzeiten: Deine schnellsten Abschlüsse und tiefsten Abgrund-Läufe stehen im Tagebuch unter REKORDE.",
+        "Beutefilter und automatischer Verkauf (Einstellungen, Beute): Blende Beute unter einer Seltenheit aus und verkauf sie automatisch in der Stadt. Epische und bessere Gegenstände und Tränke werden nie gefiltert.",
+        "Ping: Drück G, die mittlere Maustaste oder R3, um deiner Gruppe einen Punkt zu markieren.",
+        "Mehrspieler: Bricht deine Verbindung ab, verbindet sich das Spiel selbst neu und setzt dich im Dungeon der Gruppe neben den Host. Schon besiegte Feinde bleiben besiegt. Eine Warnung erscheint bei instabiler Verbindung, und das Gruppenfenster zeigt deinen Ping.",
+        "Die Runenhalle, die Juwelierin und Die Letzte Laterne haben eigene Gebäude in der Stadt.",
+        "Frostmagier: Der Frostkegel ist kürzer und schmaler (Reichweite 95, 65°; Breiter Kegel 95°).",
+        "Mehrspieler: Alle brauchen 0.19.0 (funktioniert nicht zusammen mit 0.18.x)."
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "date": "2026-11-06",
+      "title": "Classes Anew",
+      "changes": [
+        "New talent trees for every specialization: six talents from level 5 to 30, one point every five levels, a choice of two at levels 5 and 10.",
+        "Life and resource bars now sit on the name plates instead of orbs; your own bars can be shown under your character.",
+        "Party cards are compact with READY / NOT READY and notes when someone joins or leaves. In town you see the attacks, dashes, skills and summons of the others.",
+        "New results screen with your loot shown as item slots.",
+        "Foes are tougher (+40% life, +10% damage) and scale with the party: +50% life and +20% damage for each extra member.",
+        "Great Halls change their layout with every run. New level requirements: 1/3/5/7 in the first world, 10/12/14/16 in Emberfall; Nightmare opens after Normal.",
+        "Drops from foes, chests, rare foes and the Abyss favour gear your class can use. Shops only sell gear your class can use, with slot and weapon filters.",
+        "New quest board with Captain Otto and three new quests every day.",
+        "Amazone: new look \"Silver Huntress\". Mage: 150 mana and 10 mana per second. Frost Mage: Frost Cone replaces Cold Snap, faster Frostbolt. Storm Mage: Ball Lightning is always fully charged.",
+        "Bleed and poison stack up to 5 times; bleed deals 5% (one-handed, shortbows) or 10% (two-handed, longbows, crossbows) per second for 5 s, poison 5% per second for 5 s.",
+        "New looks for the shops, the Rune Hall, the vault, the pause menu and the credits. Key hints light up when you press them and follow your device.",
+        "Name plates no longer shake while walking. Showing levels under names is now a setting (off by default).",
+        "Multiplayer: everyone needs 0.18.0 (does not work together with 0.17.x)."
+      ],
+      "title_de": "Klassen neu",
+      "changes_de": [
+        "Neue Talentbäume für jede Spezialisierung: sechs Talente von Stufe 5 bis 30, ein Punkt alle fünf Stufen, eine Wahl aus zweien auf Stufe 5 und 10.",
+        "Lebens- und Ressourcenleisten sitzen jetzt an den Namensschildern statt in Kugeln; deine eigenen Leisten können unter deiner Figur angezeigt werden.",
+        "Gruppenkarten sind kompakt mit BEREIT / NICHT BEREIT und Hinweisen, wenn jemand beitritt oder geht. In der Stadt siehst du Angriffe, Sprints, Fähigkeiten und Beschwörungen der anderen.",
+        "Neuer Ergebnisbildschirm, der deine Beute als Gegenstandsplätze zeigt.",
+        "Feinde sind zäher (+40% Leben, +10% Schaden) und skalieren mit der Gruppe: +50% Leben und +20% Schaden für jedes weitere Mitglied.",
+        "Große Hallen ändern ihren Aufbau bei jedem Lauf. Neue Stufenanforderungen: 1/3/5/7 in der ersten Welt, 10/12/14/16 in Emberfall; Albtraum öffnet sich nach Normal.",
+        "Beute von Feinden, Truhen, seltenen Feinden und dem Abgrund bevorzugt Ausrüstung, die deine Klasse nutzen kann. Läden verkaufen nur Ausrüstung, die deine Klasse nutzen kann, mit Platz- und Waffenfiltern.",
+        "Neues Questbrett mit Captain Otto und jeden Tag drei neuen Quests.",
+        "Amazone: neues Aussehen \"Silberjägerin\". Magier: 150 Mana und 10 Mana pro Sekunde. Frostmagier: Frostkegel ersetzt Kälteeinbruch, schnellerer Frostblitz. Sturmmagier: Kugelblitz ist immer voll aufgeladen.",
+        "Blutung und Gift stapeln sich bis zu 5-mal; Blutung verursacht 5% (Einhand, Kurzbögen) oder 10% (Zweihand, Langbögen, Armbrüste) pro Sekunde für 5 s, Gift 5% pro Sekunde für 5 s.",
+        "Neues Aussehen für die Läden, die Runenhalle, den Tresor, das Pausenmenü und die Mitwirkenden. Tastenhinweise leuchten beim Drücken auf und folgen deinem Gerät.",
+        "Namensschilder wackeln beim Laufen nicht mehr. Stufen unter Namen sind jetzt eine Einstellung (standardmäßig aus).",
+        "Mehrspieler: Alle brauchen 0.18.0 (funktioniert nicht zusammen mit 0.17.x)."
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "date": "2026-11-01",
+      "title": "Emberfall",
+      "changes": [
+        "A second world: Emberfall, where a star fell. Four new dungeons - Cinder Warrens (Lv 12), Ashen Bastion (Lv 14), Obsidian Vault (Lv 16) and Heart of the Star (Lv 18) - each with its own look, new foes, a rare foe and a new boss: Slagmaw, Marshal Cinderhelm, the Glass Regent and the Starfall Colossus.",
+        "New dungeon in the first world: the Hollow Mines (Lv 10) with goblin diggers, delvers, ore slimes and Rockjaw, a troll of living stone.",
+        "The Portal Square has three gates: Lantern Cross (first world), the Emberfall Gate (opens at level 12 once you have cleared the Hollow Mines) and the Abyss Gate in its own dark court.",
+        "Only three difficulties: Normal, Hard and Nightmare. Every dungeon has a fixed level on each one (Normal = levels 1-18, Hard 19-26, Nightmare 26-30). Clears on Easy count as Normal.",
+        "The Shifting Depths are now reached through the Abyss Gate from level 25, without a difficulty choice - the depth is the difficulty. Every fifth depth is guarded by the Depth Horror.",
+        "XP comes from the dungeon's level: early dungeons level you fast, Nightmare slowly towards level 30.",
+        "Armour types: Warriors wear plate, Rogues and Rangers leather, Mages and Witches cloth. Equipped armour of another type is reforged into your type of the same level.",
+        "Mages now cast with wands; staves belong to the Witches. An equipped staff becomes the wand of its tier.",
+        "Loot favours armour your class can wear.",
+        "All player sounds are new: casts, hits, damage, dashes and more for every class and specialization.",
+        "Multiplayer: everyone needs 0.17.0 (does not work together with 0.16.x)."
+      ],
+      "title_de": "Emberfall",
+      "changes_de": [
+        "Eine zweite Welt: Emberfall, wo ein Stern fiel. Vier neue Dungeons – Zundergänge (St. 12), Aschebastion (St. 14), Obsidiangewölbe (St. 16) und Herz des Sterns (St. 18) – jeder mit eigenem Aussehen, neuen Feinden, einem seltenen Feind und einem neuen Boss: Slagmaw, Marschall Cinderhelm, der Glasregent und der Sternfall-Koloss.",
+        "Neuer Dungeon in der ersten Welt: die Hohlen Minen (St. 10) mit Goblin-Gräbern, Schürfern, Erzschleimen und Rockjaw, einem Troll aus lebendem Stein.",
+        "Der Portalplatz hat drei Tore: Lantern Cross (erste Welt), das Emberfall-Tor (öffnet sich ab Stufe 12, sobald du die Hohlen Minen geschafft hast) und das Abgrundtor in seinem eigenen dunklen Hof.",
+        "Nur noch drei Schwierigkeiten: Normal, Schwer und Albtraum. Jeder Dungeon hat auf jeder eine feste Stufe (Normal = Stufe 1-18, Schwer 19-26, Albtraum 26-30). Abschlüsse auf Leicht zählen als Normal.",
+        "Die Wandelnden Tiefen erreichst du jetzt über das Abgrundtor ab Stufe 25, ohne Schwierigkeitswahl – die Tiefe ist die Schwierigkeit. Jede fünfte Tiefe bewacht das Grauen der Tiefe.",
+        "EP richten sich nach der Stufe des Dungeons: Frühe Dungeons lassen dich schnell aufsteigen, Albtraum langsam Richtung Stufe 30.",
+        "Rüstungsarten: Krieger tragen Platte, Schurken und Waldläufer Leder, Magier und Hexen Stoff. Angelegte Rüstung einer anderen Art wird in deine Art derselben Stufe umgeschmiedet.",
+        "Magier wirken jetzt mit Zauberstäben; Stäbe gehören den Hexen. Ein angelegter Stab wird zum Zauberstab seiner Stufe.",
+        "Beute bevorzugt Rüstung, die deine Klasse tragen kann.",
+        "Alle Spielersounds sind neu: Zauber, Treffer, Schaden, Sprints und mehr für jede Klasse und Spezialisierung.",
+        "Mehrspieler: Alle brauchen 0.17.0 (funktioniert nicht zusammen mit 0.16.x)."
+      ]
+    },
+    {
+      "version": "0.16.1",
+      "date": "2026-11-01",
+      "title": "Portal Oath",
+      "changes": [
+        "New ready check: the heroes stand armed on rune pedestals before the open portal, with the boss waiting inside.",
+        "Whoever is ready hops, the runes turn and a beam in the spec colour shoots into the portal.",
+        "The portal spins faster with every ready hero; the countdown 3-2-1 and GO! show big inside it, then the party is pulled in.",
+        "Once the countdown runs it can no longer be cancelled by accident.",
+        "Multiplayer: works together with 0.16.0."
+      ],
+      "title_de": "Portaleid",
+      "changes_de": [
+        "Neuer Bereitschaftscheck: Die Helden stehen bewaffnet auf Runensockeln vor dem offenen Portal, drinnen wartet der Boss.",
+        "Wer bereit ist, hüpft, die Runen drehen sich, und ein Strahl in der Farbe der Spezialisierung schießt ins Portal.",
+        "Das Portal dreht sich mit jedem bereiten Helden schneller; der Countdown 3-2-1 und LOS! erscheinen groß darin, dann wird die Gruppe hineingezogen.",
+        "Läuft der Countdown, kann er nicht mehr versehentlich abgebrochen werden.",
+        "Mehrspieler: funktioniert zusammen mit 0.16.0."
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "date": "2026-11-01",
+      "title": "Sharper Edges",
+      "changes": [
+        "Mages: 100 mana at level 1 (+5 per level) that refills by 5% of your maximum every second; attacks no longer give mana back.",
+        "Mages: Skill 1 is 15% faster and every mage deals 15% more damage.",
+        "Fire Mage: Fireball explodes 20% wider and the Meteor strikes a 20% wider area. Arcanist: Arcane Burst is 30% wider.",
+        "Storm Mage: the level 18 talent is now Swiftness (+2% attack speed per rank, 5 ranks).",
+        "Amazone: now wields shortbows (an equipped bow is reforged into a shortbow of the same tier) and shoots faster. The Huntress still shoots 10% faster than her.",
+        "Amazone: Arrow Barrage makes foes bleed.",
+        "Every Rogue (Samurai, Thief, Ninja too) now has 2 dash charges. Assassin: Dagger Fan reaches half as far.",
+        "Ninja: the magic \"pling\" on throws is gone.",
+        "Blood Witch: Blood Leech is now a long ray of blood from you to the foe that drains its life.",
+        "Shadow Witch +10% damage. Forest Witch +10% damage; Creeping Vines are twice as wide.",
+        "Forest Witch talents: level 3 offers more damage or +20% attack speed for the vines, level 15 makes them hold foes in place.",
+        "Rootlings deal 20% more damage, have 20% more health and lash once more.",
+        "Summons walk at least as fast as you.",
+        "Gamepad: the cursor no longer jumps onto Sort on the way to the top right bag slot.",
+        "Multiplayer: everyone needs 0.16.0 (does not work together with 0.15.x)."
+      ],
+      "title_de": "Schärfere Kanten",
+      "changes_de": [
+        "Magier: 100 Mana auf Stufe 1 (+5 pro Stufe), die sich jede Sekunde um 5% des Maximums füllen; Angriffe geben kein Mana mehr zurück.",
+        "Magier: Fähigkeit 1 ist 15% schneller und jeder Magier verursacht 15% mehr Schaden.",
+        "Feuermagier: Der Feuerball explodiert 20% weiter und der Meteor trifft eine 20% größere Fläche. Arkanist: Arkanstoß ist 30% größer.",
+        "Sturmmagier: Das Talent auf Stufe 18 ist jetzt Schnelligkeit (+2% Angriffstempo pro Rang, 5 Ränge).",
+        "Amazone: führt jetzt Kurzbögen (ein angelegter Bogen wird in einen Kurzbogen derselben Stufe umgeschmiedet) und schießt schneller. Die Jägerin schießt weiterhin 10% schneller als sie.",
+        "Amazone: Pfeilhagel lässt Feinde bluten.",
+        "Jeder Schurke (auch Samurai, Dieb, Ninja) hat jetzt 2 Sprint-Ladungen. Assassine: Dolchfächer reicht halb so weit.",
+        "Ninja: Das magische \"Pling\" beim Werfen ist weg.",
+        "Bluthexe: Blutsauger ist jetzt ein langer Blutstrahl von dir zum Feind, der sein Leben aussaugt.",
+        "Schattenhexe +10% Schaden. Waldhexe +10% Schaden; Kriechende Ranken sind doppelt so breit.",
+        "Waldhexen-Talente: Stufe 3 bietet mehr Schaden oder +20% Angriffstempo für die Ranken, Stufe 15 hält Feinde fest.",
+        "Wurzlinge verursachen 20% mehr Schaden, haben 20% mehr Gesundheit und peitschen einmal mehr.",
+        "Beschwörungen laufen mindestens so schnell wie du.",
+        "Gamepad: Der Zeiger springt auf dem Weg zum Taschenplatz oben rechts nicht mehr auf Sortieren.",
+        "Mehrspieler: Alle brauchen 0.16.0 (funktioniert nicht zusammen mit 0.15.x)."
+      ]
+    },
     {
       "version": "0.15.1",
       "date": "2026-10-31",
@@ -115,6 +228,15 @@
         "Heroes who stand still for a while do a small idle gesture of their own.",
         "Every specialization has a small pixel aura (snow, embers, runes, sparks, petals, fireflies ...) and a burst in its colour when a skill goes off. Graphics > Particles sets how much of it you see.",
         "Multiplayer: works together with 0.15.0."
+      ],
+      "title_de": "Signaturen",
+      "changes_de": [
+        "Jede Spezialisierung hat jetzt ihr eigenes Signatur-Aussehen: ein Umhang, Horn, Köcher, Beutesack, Schal, Kristall oder eine Krone auf der Klassenfigur.",
+        "Blut-, Schatten- und Waldhexe haben eigene Figuren: Blutkrone mit Fledermaus, Mondschleier mit Augenkugel und eine Geweihkrone mit Frosch.",
+        "Neue Körperposen: Helden holen mit ihren Angriffen aus und schlagen zu und heben die Hände für Fähigkeiten.",
+        "Helden, die eine Weile stillstehen, machen eine kleine eigene Leerlaufgeste.",
+        "Jede Spezialisierung hat eine kleine Pixel-Aura (Schnee, Glut, Runen, Funken, Blüten, Glühwürmchen ...) und einen Ausbruch in ihrer Farbe, wenn eine Fähigkeit auslöst. Grafik > Partikel bestimmt, wie viel du davon siehst.",
+        "Mehrspieler: funktioniert zusammen mit 0.15.0."
       ]
     },
     {
@@ -130,6 +252,17 @@
         "Display: window mode (windowed, borderless, exclusive), VSync off/on/adaptive, an FPS limit that also works with VSync, lower limits in menus and in the background, and an FPS counter.",
         "Every setting works with a gamepad: LB/RB change tabs, the D-pad changes the values.",
         "Multiplayer: everyone needs version 0.15.0."
+      ],
+      "title_de": "Laternenglühen",
+      "changes_de": [
+        "Große Kämpfe laufen viel flüssiger: Treffer gegen große Gegnergruppen senken die Bildrate nicht mehr.",
+        "Schadenszahlen können jetzt zusammengefasst werden: Schnelle Treffer und Schaden über Zeit an einem Feind ergeben eine Zahl, höchstens 40 auf dem Bildschirm.",
+        "Neues Aussehen \"Laternenglühen\": warmes Leuchten um Lichter, eine abgestufte Farbstimmung, eine sanfte Vignette, Nebel und Lichtstrahlen, Wandschatten und Glut über Fackeln.",
+        "Neuer Treffereffekt: ein Pixelstern mit einem Funkenring, größer bei kritischen Treffern.",
+        "Neuer Reiter Grafik mit den Stufen Niedrig, Mittel, Hoch und Ultra und einer Live-Vorschau deines aktuellen Ortes, die genau zeigt, was jede Einstellung tut.",
+        "Anzeige: Fenstermodus (Fenster, randlos, exklusiv), VSync aus/an/adaptiv, eine FPS-Grenze, die auch mit VSync wirkt, niedrigere Grenzen in Menüs und im Hintergrund, und eine FPS-Anzeige.",
+        "Jede Einstellung geht mit dem Gamepad: LB/RB wechseln Reiter, das Steuerkreuz ändert Werte.",
+        "Mehrspieler: Alle brauchen Version 0.15.0."
       ]
     },
     {
@@ -142,6 +275,14 @@
         "Press any key, mouse button or gamepad button to skip it.",
         "The Godot splash screen at start is gone.",
         "Multiplayer: compatible with 0.14.0."
+      ],
+      "title_de": "Der Klingenschlag",
+      "changes_de": [
+        "Neue Startanimation: Das Schwert schlägt ein, schneidet die ELMIRAL-Buchstaben auf und das Logo gleitet ins Hauptmenü.",
+        "Eigene Sounds für das Intro, die Menümusik beginnt, wenn das Logo landet.",
+        "Drück eine beliebige Taste, Maustaste oder Gamepad-Taste, um es zu überspringen.",
+        "Der Godot-Startbildschirm ist weg.",
+        "Mehrspieler: kompatibel mit 0.14.0."
       ]
     },
     {
@@ -155,6 +296,15 @@
         "Forest Witch: Creeping Vines hit every foe in their way and slow them. Rootlings lash foes with vines. Thorn Aura hurts foes that strike you or your Rootlings in melee.",
         "Necromancer talents: level 12 now gives 5x +3% critical hit chance, level 18 now gives 5x +2% attack speed.",
         "Multiplayer: everyone needs version 0.14.0."
+      ],
+      "title_de": "Die neuen Pfade der Hexe",
+      "changes_de": [
+        "Drei neue Hexen-Spezialisierungen: Bluthexe, Schattenhexe und Waldhexe, jede mit eigenem Talentbaum.",
+        "Bluthexe: Blutstoß platzt am Feind und brütet Blutbrut aus, die zu Feinden rennt und explodiert. Blutsauger heilt dich um 30% seines Schadens. Kritische Treffer heilen dich.",
+        "Schattenhexe: Schattenblitz, und Schattensalve feuert 5 Blitze im Fächer. Kritische Treffer rufen am Feind Schattengeister, die Feinde nicht treffen können.",
+        "Waldhexe: Kriechende Ranken treffen jeden Feind auf ihrem Weg und verlangsamen ihn. Wurzlinge peitschen Feinde mit Ranken. Dornenaura verletzt Feinde, die dich oder deine Wurzlinge im Nahkampf treffen.",
+        "Nekromantin-Talente: Stufe 12 gibt jetzt 5x +3% kritische Trefferchance, Stufe 18 jetzt 5x +2% Angriffstempo.",
+        "Mehrspieler: Alle brauchen Version 0.14.0."
       ]
     },
     {
@@ -172,6 +322,19 @@
         "Assassin: Light Fan is replaced by Piercing Fan: every dagger of Dagger Fan flies on through one more foe.",
         "Assassin and Thief: Virulence now makes your poisons deal 50% more damage instead of stacking higher.",
         "Multiplayer: everyone needs version 0.13.0."
+      ],
+      "title_de": "Balance-Notizen 0.12",
+      "changes_de": [
+        "Talente auf Stufe 6 und 18 haben jetzt 5 Ränge statt 3. Jeder Rang gibt weniger, das volle Talent gibt also dasselbe wie vorher.",
+        "Das Schadenstalent auf Stufe 24 gibt jetzt +5% Schaden pro Rang statt +10%.",
+        "Krieger bauen mit Fähigkeit 1 mehr Wut auf und ihre Fähigkeit 2 kostet mehr: Schildwache 10 und 40, Ritter 15 und 45, Henker 15 und 50, Pikenier 10 und 35.",
+        "Fähigkeit 2 der Schurken kostet mehr Energie: Samurai 55, Dieb 45, Ninja 65.",
+        "Fähigkeit 2 der Waldläufer kostet mehr Fokus: Amazone 70, Scharfschütze 45, Jägerin 50, Armbrustschütze 55.",
+        "Fähigkeit 2 der Magier kostet mehr Mana: Sturmmagier 40, Frostmagier 45, Feuermagier 45, Arkanist 35. Skelett erwecken kostet 35 Verderbnis.",
+        "Die Talente, die Fähigkeit 2 billiger machen, nutzen jetzt die neuen Kosten, zum Beispiel Leichter Schritt: 55 auf 40.",
+        "Assassine: Leichter Fächer wird durch Durchbohrender Fächer ersetzt: Jeder Dolch des Dolchfächers fliegt durch einen weiteren Feind.",
+        "Assassine und Dieb: Virulenz lässt deine Gifte jetzt 50% mehr Schaden verursachen, statt höher zu stapeln.",
+        "Mehrspieler: Alle brauchen Version 0.13.0."
       ]
     },
     {
@@ -184,6 +347,14 @@
         "Difficulty cards show the level, your clears and best time, the loot bonus and the rare foe chance.",
         "Gamepad: up and down pick the dungeon, left and right (or LB and RB) the difficulty, A starts, B closes.",
         "Animated: the chosen dungeon glows, the map draws itself room by room and bosses and foes move."
+      ],
+      "title_de": "Das Dungeon-Portal",
+      "changes_de": [
+        "Neues Dungeon-Portal: Jeder Dungeon ist ein Banner mit seinem Boss und einem Edelstein pro geschaffter Schwierigkeit.",
+        "Die Seite daneben zeigt die Geschichte des Dungeons, eine Beispielkarte, den Boss, den seltenen Feind mit seiner Chance und die Feinde, die dich erwarten.",
+        "Schwierigkeitskarten zeigen die Stufe, deine Abschlüsse und Bestzeit, den Beutebonus und die Chance auf den seltenen Feind.",
+        "Gamepad: Hoch und runter wählen den Dungeon, links und rechts (oder LB und RB) die Schwierigkeit, A startet, B schließt.",
+        "Animiert: Der gewählte Dungeon leuchtet, die Karte zeichnet sich Raum für Raum, und Bosse und Feinde bewegen sich."
       ]
     },
     {
@@ -202,6 +373,20 @@
         "Rare foes are shown with a crown on the map (M) and have their own achievements.",
         "New effects on heroes: Root, Water Prison (an ally can free you) and Death Mark (share the blast with your friends).",
         "Multiplayer: not compatible with 0.11.x. Everyone has to update."
+      ],
+      "title_de": "Große Hallen und seltene Feinde",
+      "changes_de": [
+        "Neuer Dungeon-Aufbau: Jeder Dungeon ist jetzt um eine Große Halle mit einem Ring aus Räumen gebaut. Räume sind etwas größer, Gänge breiter, und es gibt etwa 60% mehr Feinde.",
+        "Die Große Halle führt nie direkt zum Boss. Du musst um den Ring herum.",
+        "25 neue Feinde in allen vier Dungeons, etwa Skelettschützen, Goblin-Bomber, Ork-Berserker, Schlangenpriesterinnen, Kristallrohlinge und Funkenschnecken. Ghule, Sumpfschleime und Ertrunkene Priester haben neues Aussehen und neue Farben.",
+        "Feinde haben jetzt echte Fähigkeiten: Sprünge, Bomben, Fallen, Netze, Strahlen, Haken, Heilungen, Beschwörungen, Kriegsbanner und mehr. Jede Fähigkeit wird angezeigt, bevor sie trifft.",
+        "Heiler und Beschwörer lassen sich unterbrechen: Triff sie, während sie wirken.",
+        "Neues Boss-Aussehen und je vier Angriffe für den Gruftwächter, den Moor-Oger, den Versunkenen Koloss und das Sturmherz.",
+        "Wandelnde Tiefen: Tobt das Sturmherz bei 50% Leben, erhebt sich das Grauen der Tiefe und greift ein. Du gewinnst erst, wenn beide tot sind.",
+        "Seltene Feinde: Jeder Dungeon kann einen seltenen Feind mit Spezialangriffen haben: 15% auf Leicht, 20% auf Normal, 25% auf Schwer und 30% auf Albtraum. Er lässt immer einen seltenen Gegenstand oder besser und doppeltes Gold fallen.",
+        "Seltene Feinde sind auf der Karte (M) mit einer Krone markiert und haben eigene Erfolge.",
+        "Neue Effekte auf Helden: Verwurzelung, Wassergefängnis (ein Verbündeter kann dich befreien) und Todesmal (teil die Explosion mit deinen Freunden).",
+        "Mehrspieler: nicht kompatibel mit 0.11.x. Alle müssen aktualisieren."
       ]
     },
     {
@@ -212,6 +397,12 @@
         "Character selection: clicking a saved hero with the mouse now only selects it. Press Play or double click the selected hero to enter the game.",
         "Gamepad and keyboard work as before.",
         "Multiplayer: compatible with 0.11.0."
+      ],
+      "title_de": "Wähle deinen Helden",
+      "changes_de": [
+        "Charakterauswahl: Ein Klick mit der Maus auf einen gespeicherten Helden wählt ihn jetzt nur aus. Drück Spielen oder doppelklick den gewählten Helden, um ins Spiel zu gehen.",
+        "Gamepad und Tastatur funktionieren wie bisher.",
+        "Mehrspieler: kompatibel mit 0.11.0."
       ]
     },
     {
@@ -230,6 +421,20 @@
         "Necromancer: Soul Bolt deals 130% of your Attack.",
         "Spells of foes, such as novas and chain lightning, can only be blocked by the Sentinel's Bulwark talent.",
         "Multiplayer: not compatible with 0.10.x. Everyone has to update."
+      ],
+      "title_de": "Der Sternenpfad",
+      "changes_de": [
+        "Neue Talentbäume: Jede Spezialisierung hat ihren eigenen Sternenpfad im Fähigkeitenfenster (U). Du bekommst 1 Talentpunkt pro Stufe, von Stufe 1 bis 30.",
+        "Die Talente ersetzen die alten Fähigkeitsverbesserungen auf Stufe 5 und 10. Deine Helden bekommen ihre Punkte zurück und können sie sofort verteilen.",
+        "Auf manchen Stufen wählst du eines von zwei Talenten. In der Stadt kannst du Punkte kostenlos zurücknehmen und den ganzen Baum zurücksetzen.",
+        "Krieger kämpfen jetzt mit Wut: Schwerthieb und die anderen ersten Fähigkeiten bauen sie auf, die zweite Fähigkeit verbraucht sie.",
+        "Schurken haben jetzt Energie (100, +15 pro Sekunde) und Waldläufer Fokus (100, +10 pro Sekunde).",
+        "Die zweite Fähigkeit von Kriegern, Schurken und Waldläufern hat keine Abklingzeit mehr. Sie kostet stattdessen Wut, Energie oder Fokus.",
+        "Amazone: Das Passiv gibt jetzt +10% kritische Trefferchance (vorher 5%).",
+        "Ninja: Das neue Passiv Tödliche Sterne lässt kritische Treffer 180% statt 150% verursachen. Die zweite Rollladung ist weg.",
+        "Nekromantin: Seelenblitz verursacht 130% deines Angriffs.",
+        "Zauber von Feinden wie Novas und Kettenblitze kann nur das Bollwerk-Talent der Schildwache blocken.",
+        "Mehrspieler: nicht kompatibel mit 0.10.x. Alle müssen aktualisieren."
       ]
     },
     {
@@ -245,6 +450,17 @@
         "Assassin: the Dagger Fan upgrade Bleed is now Pierce: each dagger hits up to 5 foes.",
         "Assassin: the Twin Stab upgrade Poison is now Deadly Venom: its poison deals 25% per second instead of 12.5%.",
         "Multiplayer: still works with 0.10.0, but the host's version decides the rules, so everyone should update."
+      ],
+      "title_de": "Knochen und Gift",
+      "changes_de": [
+        "Feinde kämpfen jetzt auch gegen die Skelette der Nekromantin. Ein Skelettkrieger hat 40% des Lebens der Hexe, Magier und Schützen 20%, eine Ratte 5%.",
+        "Skelette halten etwas Abstand zueinander, statt ineinander zu stehen.",
+        "Beim Löschen eines Charakters kommt nur noch \"Bist du sicher?\" mit Ja und Nein. Kein Eintippen des Namens mehr.",
+        "Assassine: neues Passiv Gift. Jeder Treffer von Doppelstich und Dolchfächer vergiftet den Feind mit 12,5% deines Angriffs pro Sekunde für 4 s, bis zu 10-mal stapelbar. Es ersetzt Tödliche Präzision.",
+        "Assassine: Dolchfächer verursacht 100% deines Angriffs (vorher 70%).",
+        "Assassine: Die Dolchfächer-Verbesserung Blutung ist jetzt Durchbohren: Jeder Dolch trifft bis zu 5 Feinde.",
+        "Assassine: Die Doppelstich-Verbesserung Gift ist jetzt Tödliches Gift: Sein Gift verursacht 25% pro Sekunde statt 12,5%.",
+        "Mehrspieler: funktioniert noch mit 0.10.0, aber die Version des Hosts bestimmt die Regeln, also sollten alle aktualisieren."
       ]
     },
     {
@@ -264,6 +480,21 @@
         "Storm Mage: Ball Lightning deals 165% of your Attack (was 120%).",
         "The mana orb is now a deep blue and no longer turns white while it refills or drains.",
         "Multiplayer: everyone needs version 0.10.0 to play together."
+      ],
+      "title_de": "Die Hexe erhebt sich",
+      "changes_de": [
+        "Neue Klasse: die Hexe, mit Gesundheit und Mana wie der Magier. Ihr Standardangriff reicht 120 bei 200 px/s.",
+        "Ihr erster Pfad ist die Nekromantin, die aus Verderbnis statt Mana schöpft.",
+        "Seelenblitz: ein grüner Blitz für 160% deines Angriffs. Verbesserungen: +20% Schaden, Verderbnisraub oder 30% Verlangsamung.",
+        "Skelett erwecken: bis zu 3 Skelettkrieger für 25 Verderbnis, keine Abklingzeit. Sie greifen den zuletzt getroffenen Feind an und zerfallen nach 5 Hieben. Verbesserungen: Skelettmagier, Skelettschützen oder 2 Hiebe mehr.",
+        "Passiv Rattenschwarm: Jeder kritische Treffer erweckt eine schnelle Skelettratte (bis zu 6), die 3-mal beißt.",
+        "Drei weitere Hexenpfade kommen bald.",
+        "Sprint-Abklingzeiten: Krieger, Magier und Hexe 3 s, Waldläufer 2 s (Armbrustschütze 3 s), Assassine 2 s pro Ladung, Arkanist 3 s pro Ladung.",
+        "Magier: kritische Trefferchance 8% auf 15% (die Hexe auch).",
+        "Frostmagier: Kälteeinbruch reicht jetzt 150 (vorher 100).",
+        "Sturmmagier: Kugelblitz verursacht 165% deines Angriffs (vorher 120%).",
+        "Die Manakugel ist jetzt tiefblau und wird beim Füllen oder Leeren nicht mehr weiß.",
+        "Mehrspieler: Alle brauchen Version 0.10.0, um zusammen zu spielen."
       ]
     },
     {
@@ -279,6 +510,17 @@
         "LB / RB now switch the book tabs from the inventory too, and the inventory is easier to move through with a controller.",
         "The key and controller button pictures are back everywhere: on the action bar, the book tabs, the close button and the hints.",
         "The life and mana orbs now sit right on the ends of the action bar, with the XP bar above it."
+      ],
+      "title_de": "Das Heldenbuch, fertig",
+      "changes_de": [
+        "Charakter, Fähigkeiten, Tagebuch und Gruppe sehen jetzt aus wie der Rest des Arkanklingen-Buchs.",
+        "Charakter: ein großes Medaillon mit deinem Helden, deinem Stufenedelstein, Attributen und Rekorden.",
+        "Fähigkeiten: eine Karte pro Fähigkeit mit ihren drei Verbesserungen zur Wahl, dazu dein Passiv und dein Sprint.",
+        "Tagebuch: Quests mit Fortschrittsbalken, jeder Dungeon und jede Schwierigkeit auf einen Blick, Erfolge als Medaillen.",
+        "Gruppe: eine Karte für jeden Helden deiner Gruppe und darunter die Steam-Lobby.",
+        "LB / RB wechseln die Buchreiter jetzt auch vom Inventar aus, und das Inventar ist mit dem Controller leichter zu bedienen.",
+        "Die Bilder der Tasten und Controllerknöpfe sind überall zurück: auf der Aktionsleiste, den Buchreitern, dem Schließen-Knopf und den Hinweisen.",
+        "Lebens- und Manakugel sitzen jetzt direkt an den Enden der Aktionsleiste, mit der EP-Leiste darüber."
       ]
     },
     {
@@ -295,6 +537,18 @@
         "New Character tab (key C): your hero, attributes and records.",
         "The inventory shows your hero in a rune circle with the five equipment slots around it. Drag an item onto a slot to wear it, click a slot to take it off.",
         "The pause menu and settings got the new look too; the settings tabs are now a list on the left."
+      ],
+      "title_de": "Ein neues Aussehen: Arkanklinge",
+      "changes_de": [
+        "Die ganze Spieloberfläche hat ein neues Aussehen in violettem Glas mit Goldrand, passend zum Hauptmenü.",
+        "Oben links: ein größeres rundes Porträt mit deiner Stufe auf einem runden Edelstein.",
+        "Die Aktionsleiste ist eine Konsole zwischen den Kugeln, mit der EP-Leiste darüber und klaren Tastenbeschriftungen über jedem Platz.",
+        "Quests hängen als Banner rechts, die Bossleiste ist jetzt eine Schwertklinge.",
+        "Der Chat ist kleiner und sitzt in der Ecke unten links neben der Lebenskugel.",
+        "Inventar, Charakter, Fähigkeiten, Tagebuch und Gruppe sind ein Buch mit Reitern. Wechsle per Klick, mit ihren Tasten oder LB / RB.",
+        "Neuer Reiter Charakter (Taste C): dein Held, Attribute und Rekorde.",
+        "Das Inventar zeigt deinen Helden in einem Runenkreis mit den fünf Ausrüstungsplätzen drumherum. Zieh einen Gegenstand auf einen Platz, um ihn zu tragen, klick einen Platz, um ihn abzulegen.",
+        "Pausenmenü und Einstellungen haben auch das neue Aussehen; die Einstellungsreiter sind jetzt eine Liste links."
       ]
     },
     {
@@ -308,6 +562,15 @@
         "Crossbowman: Crossbow Bolt reach 120 at speed 200 (Velocity: 250, Point Blank: reach 100), Explosive Bolt reach 120.",
         "Meteor, Arcane Burst and Arrow Barrage can be placed 30% less far. Crossbow Bolt deals 110%, Chain Lightning 165% but flies slower.",
         "Cold Snap always deals 180%, charging only widens the burst. Frost Nova now appears where the Blink starts, like the caltrops; both have radius 40."
+      ],
+      "title_de": "Blutung und neue Reichweiten",
+      "changes_de": [
+        "Jede Blutung verursacht jetzt 20% deines Angriffs als Schaden pro Sekunde für 4 s, für alle Klassen und Quellen.",
+        "Reichweiten und Geschossgeschwindigkeiten wurden überarbeitet: Schildstoß 24, Samurai-Schnitt 32, Shuriken 90, Shuriken-Sturm 70 rundum, Kugelblitz 125 (Weit: 150).",
+        "Waldläufer-Pfeile: Schuss von Amazone und Jägerin reicht 180, Schuss des Scharfschützen 200 und Gezielter Schuss 250. Pfeile fliegen mit 250, ein voll gespannter Gezielter Schuss mit 350.",
+        "Armbrustschütze: Armbrustbolzen reicht 120 bei Tempo 200 (Geschwindigkeit: 250, Kernschuss: Reichweite 100), Explosivbolzen reicht 120.",
+        "Meteor, Arkanstoß und Pfeilhagel lassen sich 30% weniger weit platzieren. Armbrustbolzen verursacht 110%, Kettenblitz 165%, fliegt aber langsamer.",
+        "Kälteeinbruch verursacht immer 180%, Aufladen vergrößert nur den Ausbruch. Frostnova erscheint jetzt dort, wo das Blinzeln beginnt, wie die Krähenfüße; beide haben Radius 40."
       ]
     },
     {
@@ -317,6 +580,11 @@
       "changes": [
         "The main menu has new music: \"Lantern Jig\", a lively tune with lute, fiddle and flute.",
         "Lantern Cross has its own town song: \"Fireflies\" by rxdley."
+      ],
+      "title_de": "Neue Musik",
+      "changes_de": [
+        "Das Hauptmenü hat neue Musik: \"Lantern Jig\", eine lebhafte Melodie mit Laute, Fiedel und Flöte.",
+        "Lantern Cross hat sein eigenes Stadtlied: \"Fireflies\" von rxdley."
       ]
     },
     {
@@ -328,6 +596,13 @@
         "The patch notes list shows every update as a bar, grouped by version. Click it (or press A) to fold its notes open or shut, LB and RB jump between updates. The list scrolls and always fits on the screen.",
         "Gamepad, character creator: A locks the class you picked, so walking over the other classes to \"Next\" no longer changes it. Press A on it again to choose another class.",
         "Gamepad, hero selection: LB and RB switch between slots 1-5 and 6-10."
+      ],
+      "title_de": "Neue Patch Notes und Gamepad-Korrekturen",
+      "changes_de": [
+        "Nach einem Update siehst du jetzt eine kleine Karte nur mit den Notizen der neuen Version. \"Alle Patch Notes\" öffnet die volle Liste.",
+        "Die Patch-Notes-Liste zeigt jedes Update als Balken, nach Version gruppiert. Klick ihn an (oder drück A), um seine Notizen auf- oder zuzuklappen, LB und RB springen zwischen Updates. Die Liste scrollt und passt immer auf den Bildschirm.",
+        "Gamepad, Charaktererstellung: A sperrt die gewählte Klasse, sodass der Weg über die anderen Klassen zu \"Weiter\" sie nicht mehr ändert. Drück erneut A darauf, um eine andere Klasse zu wählen.",
+        "Gamepad, Heldenauswahl: LB und RB wechseln zwischen den Plätzen 1-5 und 6-10."
       ]
     },
     {
@@ -338,6 +613,12 @@
         "Choosing a character looks completely new: your heroes stand side by side on glowing rune pedestals, and the one you pick steps into a beam of light in its colour.",
         "Every hero holds the weapon it really has equipped. The Sentinel also carries its shield and the Assassin both daggers. Legendary and mythic weapons sparkle.",
         "Click a hero (or move to it with the gamepad) to pick it; click it again or press A to play. Play, Backups and Delete are in the bar at the bottom. Switching pages slides the heroes in."
+      ],
+      "title_de": "Die Halle der Helden",
+      "changes_de": [
+        "Die Charakterwahl sieht ganz neu aus: Deine Helden stehen nebeneinander auf leuchtenden Runensockeln, und der gewählte tritt in einen Lichtstrahl in seiner Farbe.",
+        "Jeder Held hält die Waffe, die er wirklich angelegt hat. Die Schildwache trägt auch ihren Schild und die Assassine beide Dolche. Legendäre und mythische Waffen funkeln.",
+        "Klick einen Helden an (oder geh mit dem Gamepad zu ihm), um ihn zu wählen; klick erneut oder drück A, um zu spielen. Spielen, Sicherungen und Löschen sind in der Leiste unten. Beim Seitenwechsel gleiten die Helden herein."
       ]
     },
     {
@@ -346,6 +627,10 @@
       "title": "Shorter tooltips",
       "changes": [
         "The tooltip over a specialization is now short: its description and the names of its two skills. Everything else is shown on the page itself."
+      ],
+      "title_de": "Kürzere Tooltips",
+      "changes_de": [
+        "Der Tooltip über einer Spezialisierung ist jetzt kurz: ihre Beschreibung und die Namen ihrer zwei Fähigkeiten. Alles andere steht auf der Seite selbst."
       ]
     },
     {
@@ -356,6 +641,12 @@
         "Creating a hero looks completely new: your class stands big on a glowing rune altar with a beam of light in its colour, and the classes and specializations are medallions in a bar at the bottom.",
         "The class step shows the stats as bars and the specializations of the class. The specialization step shows both skills with icons and their upgrades; point at an upgrade to see what it does.",
         "Gamepad: in the specialization step left and right switch the specialization, down goes to Begin Adventure."
+      ],
+      "title_de": "Eine neue Charaktererstellung",
+      "changes_de": [
+        "Das Erschaffen eines Helden sieht ganz neu aus: Deine Klasse steht groß auf einem leuchtenden Runenaltar mit einem Lichtstrahl in ihrer Farbe, und Klassen und Spezialisierungen sind Medaillons in einer Leiste unten.",
+        "Der Klassenschritt zeigt die Werte als Balken und die Spezialisierungen der Klasse. Der Spezialisierungsschritt zeigt beide Fähigkeiten mit Symbolen und ihre Verbesserungen; zeig auf eine Verbesserung, um zu sehen, was sie tut.",
+        "Gamepad: Im Spezialisierungsschritt wechseln links und rechts die Spezialisierung, runter geht zu Abenteuer beginnen."
       ]
     },
     {
@@ -365,6 +656,11 @@
       "changes": [
         "The main menu has a completely new look: a new ELMIRAL logo with a sword and a glowing violet aura, drifting sparks over the town, a big Continue card in the middle and the other entries in a bar at the bottom.",
         "Keyboard and gamepad work as before: up and down move through all entries."
+      ],
+      "title_de": "Ein brandneues Hauptmenü",
+      "changes_de": [
+        "Das Hauptmenü sieht ganz neu aus: ein neues ELMIRAL-Logo mit Schwert und leuchtend violetter Aura, treibende Funken über der Stadt, eine große Weiter-Karte in der Mitte und die anderen Einträge in einer Leiste unten.",
+        "Tastatur und Gamepad funktionieren wie bisher: Hoch und runter gehen durch alle Einträge."
       ]
     },
     {
@@ -386,6 +682,23 @@
         "Gamepad: placed spells like the Meteor always land at full range. B or Esc closes the map.",
         "Fixed: in the Shifting Depths a party member no longer flies across the map after going down a level. Names over players and NPCs no longer jitter while walking.",
         "Multiplayer: everyone needs version 0.9.0 to play together."
+      ],
+      "title_de": "Kälteeinbruch, ein neues Einstellungsmenü und viele Korrekturen",
+      "changes_de": [
+        "Frostmagier: Die zweite Fähigkeit ist jetzt Kälteeinbruch, eine große aufladbare Eiskugel, die beim Aufprall platzt und die Feinde ringsum einfriert. Verbesserungen: Tiefe Kälte (verlangsamt statt einzufrieren, mehr Schaden), Effizienz (weniger Mana) und Weiter Stoß (größerer Ausbruch).",
+        "Sturmmagier: Der Blitz ist schneller, fährt durch einen Feind, und sein Kettenblitz springt weiter und sieht besser aus. Die Verbesserung Angriffstempo ist jetzt Betäubung. Kugelblitz lässt sich aufladen: doppelt so groß und mehr Schaden, aber langsamer.",
+        "Feuermagier: Der Feuerball ist langsamer, trifft aber härter. Arkanist: Arkanstoß verursacht 35% mehr Schaden und seine Verbesserung Reichweite ist jetzt Radius.",
+        "Armbrustschütze: Die Explosion des Explosivbolzens ist doppelt so groß, und die Krähenfüße landen jetzt dort, wo die Rolle beginnt, doppelt so breit.",
+        "Ninja: Das Passiv gibt zwei Rollen hintereinander, und die zweite Fähigkeit ist jetzt Shuriken-Sturm, ein dichter Sternenring rundum.",
+        "Hattest du Angriffstempo (Sturmmagier) oder Reichweite (Arkanist) gewählt, wähle in der Stadt eine neue Verbesserung.",
+        "Einstellungen: neue Reiter Spiel, Anzeige, HUD, Audio, Zielen & Zeiger, Tastatur & Maus, Gamepad und Admin, und das Fenster behält eine Größe.",
+        "Gruppe: neue Mitgliederkarten oben links mit Gesundheit, Stufe und Aufenthaltsort, und optionale Lebensleisten über deinen Gruppenmitgliedern.",
+        "Du kannst Gegenstände im Inventar wegwerfen (zweimal Wegwerfen drücken, gesperrte Gegenstände bleiben).",
+        "Die Stadt hat Wege zu jedem Ort, und ein großer neuer Brunnen steht mitten auf dem Platz.",
+        "Das Portal hat wieder seine alte Größe, mit ruhig schwebenden Runensteinen und einem langsameren Wirbel.",
+        "Gamepad: Platzierte Zauber wie der Meteor landen immer auf voller Reichweite. B oder Esc schließt die Karte.",
+        "Behoben: In den Wandelnden Tiefen fliegt ein Gruppenmitglied nach dem Abstieg nicht mehr quer über die Karte. Namen über Spielern und NPCs zittern beim Laufen nicht mehr.",
+        "Mehrspieler: Alle brauchen Version 0.9.0, um zusammen zu spielen."
       ]
     },
     {
@@ -396,6 +709,12 @@
         "Executioner: the Axe Cleave is 15% slower (0.54 s to 0.62 s per swing).",
         "Pikeman: the Pike Thrust is 15% faster (0.58 s to 0.49 s per thrust), also with the Attack Speed and Heavy Thrust upgrades.",
         "Multiplayer stays compatible with 0.8.1."
+      ],
+      "title_de": "Angriffstempo für Henker und Pikenier",
+      "changes_de": [
+        "Henker: Der Axthieb ist 15% langsamer (0,54 s auf 0,62 s pro Schwung).",
+        "Pikenier: Der Pikenstich ist 15% schneller (0,58 s auf 0,49 s pro Stich), auch mit den Verbesserungen Angriffstempo und Schwerer Stich.",
+        "Mehrspieler bleibt kompatibel mit 0.8.1."
       ]
     },
     {
@@ -408,6 +727,14 @@
         "The dungeon portal has a new look: a carved stone arch with lanterns, glowing runes, floating rune stones and a swirling starry vortex that wakes up when you come close.",
         "A river runs through the south of the town, with a stone bridge on the South Road and reeds on its banks.",
         "Multiplayer: everyone needs version 0.8.1 to play together."
+      ],
+      "title_de": "Eine neue Stadt und ein neues Portal",
+      "changes_de": [
+        "Die Stadt ist neu gebaut und viel größer: Du kommst direkt am Portal an, der Brunnenplatz liegt in der Mitte, und Schmiedezeile, Markt, Übungsplatz, Laternen-Gasthaus und Wohnviertel haben jeweils ihren eigenen Platz.",
+        "Die große Karte (M) zeigt die Namen der Stadtviertel.",
+        "Das Dungeon-Portal hat ein neues Aussehen: ein gemeißelter Steinbogen mit Laternen, leuchtenden Runen, schwebenden Runensteinen und einem wirbelnden Sternenstrudel, der erwacht, wenn du näher kommst.",
+        "Ein Fluss fließt durch den Süden der Stadt, mit einer Steinbrücke an der Südstraße und Schilf an den Ufern.",
+        "Mehrspieler: Alle brauchen Version 0.8.1, um zusammen zu spielen."
       ]
     },
     {
@@ -429,6 +756,23 @@
         "Class balance: new damage per specialization, the mage gets mana back with every spell, the Assassin has 2 dash charges, the Amazone's barrage comes in 3 waves, and more bleed on many skills.",
         "The katana now flips correctly to the right and daggers point up.",
         "Not compatible with 0.7.x in multiplayer: everyone needs 0.8.0."
+      ],
+      "title_de": "Vier neue Spezialisierungen, Passive und Duelle",
+      "changes_de": [
+        "Vier neue Spezialisierungen, eine mehr für jede Klasse: Sturmmagier (Kettenblitz und ein aufladbarer Kugelblitz), Pikenier (Speerstich und Sprungangriff), Ninja (Shuriken, Dreifachstern und ein Shuriken-Sturm nach jeder Rolle) und Armbrustschütze (blutende Bolzen, Explosivbolzen und Krähenfüße nach der Rolle).",
+        "Neue Waffenreihen für sie: 15 Speere, 15 Shuriken und 15 Armbrüste, in den Läden und als Beute.",
+        "Jede Spezialisierung hat ein Passiv, das immer aktiv ist, zum Beispiel Block für die Schildwache, +25% Gold für den Dieb und 2 Blinzel-Ladungen für den Arkanisten. Du siehst es im Fähigkeitenfenster und bei der Wahl deiner Spezialisierung.",
+        "Duelle: Stehen genau zwei Spieler im Ring in der Stadt, startet ein Countdown von 3 s. Der Verlierer bleibt bei 1 LP, und beide werden danach geheilt. Wer den Ring verlässt, beendet das Duell. Außerhalb des Rings verletzen sich Spieler nie.",
+        "Drei Übungspuppen in der Stadt zeigen deinen Schaden pro Sekunde.",
+        "Dunkler Ritter heißt jetzt Henker. Die Schildwache trägt blaue Rüstung mit goldenem Federbusch.",
+        "Die Meteor-Verbesserung \"Echo\" ist jetzt \"Radius\": Die Explosion ist 30% größer.",
+        "Gamepad: Fähigkeit 1 ist jetzt LT und Fähigkeit 2 RT. Der Mauszeiger verschwindet, während du mit Gamepad spielst. Neue Einstellung: Sprint in Lauf- oder Zielrichtung.",
+        "Lebens- und Manakugel sitzen direkt neben der Aktionsleiste. Blutungs- und Giftstapel erscheinen unter der Bossleiste.",
+        "Feinde lassen halb so viele zufällige Gegenstände und Tränke fallen. Truhen, Gold und garantierte Beute bleiben gleich.",
+        "Alle laufen etwas schneller (74 auf 78).",
+        "Klassenbalance: neuer Schaden pro Spezialisierung, der Magier bekommt mit jedem Zauber Mana zurück, die Assassine hat 2 Sprint-Ladungen, der Hagel der Amazone kommt in 3 Wellen, und mehr Blutung bei vielen Fähigkeiten.",
+        "Das Katana dreht sich jetzt korrekt nach rechts und Dolche zeigen nach oben.",
+        "Im Mehrspieler nicht kompatibel mit 0.7.x: Alle brauchen 0.8.0."
       ]
     },
     {
@@ -440,6 +784,13 @@
         "The rune level belongs to the equipment slot and shows as \"Weapon slot +3\": it stays when you change gear.",
         "Arcanist: \"Free Cast\" (a 25% chance for a free burst) is replaced by \"Efficiency\": the burst always costs 25% less mana (19 instead of 25). If you had picked Free Cast, you now have Efficiency.",
         "Works together with 0.7.0 in multiplayer."
+      ],
+      "title_de": "Runenhalle",
+      "changes_de": [
+        "Platzverbesserungen sind von Borins Schmiede zu einem neuen Stadtbewohner gezogen: Torvik Runeheart in der Runenhalle.",
+        "Die Runenstufe gehört zum Ausrüstungsplatz und erscheint als \"Platz Waffe +3\": Sie bleibt, wenn du die Ausrüstung wechselst.",
+        "Arkanist: \"Freier Zauber\" (25% Chance auf einen kostenlosen Stoß) wird durch \"Effizienz\" ersetzt: Der Stoß kostet immer 25% weniger Mana (19 statt 25). Hattest du Freier Zauber gewählt, hast du jetzt Effizienz.",
+        "Funktioniert im Mehrspieler zusammen mit 0.7.0."
       ]
     },
     {
@@ -465,6 +816,27 @@
         "Loot drops for every class. Gold and the vault are shared by all your characters, so the vault takes no gold any more. Your old gold and vaults are added together once.",
         "Admin menu for testing, unlocked with a password in the settings (also with a controller).",
         "Not compatible with 0.6.x in multiplayer: everyone needs 0.7.0."
+      ],
+      "title_de": "Zufällige Dungeons, neuer Magier, gemeinsamer Tresor",
+      "changes_de": [
+        "Jeder Dungeon wird bei jedem Betreten neu gebaut, wie die Wandelnden Tiefen. Die Gruppe spielt den Aufbau des Hosts.",
+        "Auf Schwer und Albtraum haben die Feinde jedes Dungeons zusätzliche Fähigkeiten: Anstürme, Novas, Wurfmesser, Frost und mehr.",
+        "Der Magier wirkt wie der Scharfschütze: eine kurze Wirkzeit, dann eine größere und stärkere Kugel, in langsamerem Takt.",
+        "Magierzauber haben keine Abklingzeiten mehr, nur Mana und eine kurze globale Abklingzeit zwischen Zaubern.",
+        "Manatränke sind weg. Alte in deinen Taschen funktionieren noch und lassen sich verkaufen.",
+        "Fähigkeitsverbesserungen werden auf Stufe 5 (Fähigkeit 1) und Stufe 10 (Fähigkeit 2) freigeschaltet statt auf 10 und 20.",
+        "Neue Abklingzeiten: Schurkenrolle 2 s, Waldläufer-Sprint 4 s, Fächerschuss und Dolchfächer 4,5 s, Pfeilhagel und Wirbelwind 5 s.",
+        "Der Samurai und der Kurzbogen greifen etwas langsamer an; ihr altes Tempo gibt jetzt die Verbesserung.",
+        "Das Sturmherz hat mehr Gesundheit.",
+        "Blinzeln trägt dich mitten durch Feinde.",
+        "Die Verlangsamung des Frostmagiers bremst auch die Angriffe der Feinde, nicht nur ihre Bewegung.",
+        "Blutung und Gift stapeln sich, jeder Stapel schwächer. Ein roter oder grüner Punkt mit der Stapelzahl erscheint über dem Feind.",
+        "Neue Lebensleisten für Feinde, und jeder Boss hat seine eigene animierte Leiste.",
+        "Arkanblitz ist violetter.",
+        "Ein goldenes Fragezeichen erscheint über Captain Brenna, wenn eine Quest erledigt ist, und die Questliste wird in der Stadt immer angezeigt.",
+        "Beute fällt für jede Klasse. Gold und Tresor teilen sich alle deine Charaktere, also nimmt der Tresor kein Gold mehr. Dein altes Gold und deine Tresore werden einmalig zusammengelegt.",
+        "Admin-Menü zum Testen, mit einem Passwort in den Einstellungen freigeschaltet (auch mit Controller).",
+        "Im Mehrspieler nicht kompatibel mit 0.6.x: Alle brauchen 0.7.0."
       ]
     },
     {
@@ -482,6 +854,19 @@
         "New effects for potions, area spells, critical hits, revives and level up.",
         "The level emblem at the action bar is gone.",
         "Not compatible with 0.5.x in multiplayer: everyone needs 0.6.0."
+      ],
+      "title_de": "Neue Gegenstandsgrafiken, legendäre und mythische Ausrüstung",
+      "changes_de": [
+        "Jeder Gegenstand hat neue Pixel-Art in einem Stil, und Waffen zeigen ihr eigenes Bild in der Hand.",
+        "Großschwerter sind länger und breiter, Katanas haben eine schlanke gebogene Klinge, und die Schildwache trägt einen neuen Schild.",
+        "Bögen werden quer zum Schuss gehalten, frei vom Körper, und zeigen beim Zielen die gespannte Sehne.",
+        "Neue Seltenheiten über Episch: 12 legendäre und 12 mythische Gegenstände auf Stufe 30. Legendäres fällt bei den späten Bossen und im Verborgenen Versteck auf Schwer oder höher, Mythisches nur auf Albtraum.",
+        "Eine getragene legendäre oder mythische Waffe sprüht leuchtende Funken, die die ganze Gruppe sieht, ihre Beute bekommt eine Lichtsäule und ihre Plätze leuchten.",
+        "Neue animierte Truhen: Holz für die normale Truhe, Rot und Gold für die seltene.",
+        "Tastenhinweise zeigen echte Bilder von Tasten, Maus und Controllerknöpfen.",
+        "Neue Effekte für Tränke, Flächenzauber, kritische Treffer, Wiederbelebungen und Stufenaufstieg.",
+        "Das Stufenemblem an der Aktionsleiste ist weg.",
+        "Im Mehrspieler nicht kompatibel mit 0.5.x: Alle brauchen 0.6.0."
       ]
     },
     {
@@ -499,6 +884,19 @@
         "Space, J and K no longer attack or cast. Attack with the left mouse button, skill 2 with the right mouse button. You can still bind your own keys.",
         "HUD settings: orb size, numbers in the orbs, red screen edge at low life, control hints. F1 hides the whole HUD.",
         "Works together with 0.5.0 in multiplayer."
+      ],
+      "title_de": "Neues HUD und neue Karte",
+      "changes_de": [
+        "Neues HUD: eine Lebenskugel unten links und eine Manakugel unten rechts (nur Klassen mit Mana), mit Abflusseffekt bei Lebensverlust und einem Pulsieren bei wenig Leben.",
+        "Neue Aktionsleiste mit deiner Waffe, Tränken, Fähigkeit 2 und Sprint. Abklingzeiten laufen als dunkler Kreis mit Sekunden. Die EP-Linie und deine Stufe sitzen unter der Leiste.",
+        "Neuer Charakterrahmen oben links. Gruppenmitglieder erscheinen mit Stufe und Leben.",
+        "Die Minikarte ist weg. Drück M für die neue Karte in Stadt und Dungeons: Sie zeigt das echte Level, einen Nebel über noch nicht Gesehenem, Raumnamen, dich, deine Gruppe, den Ausgang, Truhen und den Boss.",
+        "Karteneinstellungen unter Einstellungen > Anzeige: Deckkraft, Größe und Raumnamen.",
+        "Drück L, um die Quest-Anzeige in Dungeons aus- oder einzublenden.",
+        "Heil- und Manatränke haben je 3 Sekunden Abklingzeit.",
+        "Leertaste, J und K greifen nicht mehr an und zaubern nicht mehr. Angriff mit der linken Maustaste, Fähigkeit 2 mit der rechten. Eigene Tasten kannst du weiterhin belegen.",
+        "HUD-Einstellungen: Kugelgröße, Zahlen in den Kugeln, roter Bildschirmrand bei wenig Leben, Steuerungshinweise. F1 blendet das ganze HUD aus.",
+        "Funktioniert im Mehrspieler zusammen mit 0.5.0."
       ]
     },
     {
@@ -513,6 +911,16 @@
         "Elmiral's own mouse pointer. You can switch back to the normal pointer in Aim & Cursor.",
         "Gamepad: dead zones for the aim stick and the move stick can be set in Aim & Cursor.",
         "Multiplayer needs 0.5.0 on every PC (0.4.x cannot join 0.5.0)."
+      ],
+      "title_de": "Sanftes Zielen",
+      "changes_de": [
+        "Sanftes Zielen für jede Klasse: Der Zielpfeil folgt immer deiner Maus oder deinem Stick, auch während du angreifst.",
+        "Dein Angriff dreht sich mit dem Pfeil, bis er trifft oder der Schuss losgeht. Halte die Taste, und der nächste Angriff geht dorthin, wohin der Pfeil zeigt.",
+        "Der Zielpfeil ist größer, leuchtend gelb und sitzt weiter von deiner Figur entfernt.",
+        "Neuer Einstellungsreiter Zielen & Zeiger: Wähle die Farbe des Pfeils mit Rot-, Grün- und Blaureglern oder Schnellfarben und stell Größe, Abstand und Deckkraft ein.",
+        "Elmirals eigener Mauszeiger. Unter Zielen & Zeiger kannst du zum normalen Zeiger zurückwechseln.",
+        "Gamepad: Totzonen für Ziel- und Lauf-Stick lassen sich unter Zielen & Zeiger einstellen.",
+        "Mehrspieler braucht 0.5.0 auf jedem PC (0.4.x kann 0.5.0 nicht beitreten)."
       ]
     },
     {
@@ -532,6 +940,21 @@
         "Cripple deals 100% and lunges forward with a new strike effect.",
         "Dark Knight bleed deals 25% per second.",
         "Plays together with 0.4.0, but update both PCs so the numbers match."
+      ],
+      "title_de": "Kampfbalance",
+      "changes_de": [
+        "Normale Treffer stoßen Feinde nicht mehr zurück. Nur Schildstoß, Arkanblitz und Meteor tun das.",
+        "Grundangriffe jeder Klasse sind etwa 15% langsamer.",
+        "Magierblitze sind größere leuchtende Kugeln. Waldläuferpfeile sind kleiner.",
+        "Normale Feinde sind etwas leichter zu treffen.",
+        "Aufgeladene Fähigkeiten (Frostnova, Gezielter Schuss) lösen erst aus, wenn du die Taste loslässt.",
+        "Fächerschuss und Dolchfächer streuen über 80 Grad statt 120. Fächerschuss verursacht 70% pro Pfeil.",
+        "Nur Pfeile des Scharfschützen durchbohren. Andere Pfeile treffen einen Feind.",
+        "Kürzere Abklingzeiten: Meteor 6 s, Frostnova 5 s, Stich 4,5 s, Ausfall 4 s, Pfeilhagel 6 s. Arkanstoß hat jetzt 2 s.",
+        "Schildstoß stürmt ein kurzes Stück vor, verursacht 160%, betäubt 0,6 s und hat 3 s Abklingzeit.",
+        "Lähmen verursacht 100% und stürzt mit einem neuen Treffereffekt nach vorn.",
+        "Die Blutung des Dunklen Ritters verursacht 25% pro Sekunde.",
+        "Spielt zusammen mit 0.4.0, aber aktualisiere beide PCs, damit die Zahlen passen."
       ]
     },
     {
@@ -551,6 +974,21 @@
         "Tips for new players (can be turned off in the settings).",
         "Trades are safe now: if the connection drops mid-trade, nothing is lost or doubled.",
         "Multiplayer needs 0.4.0 on every PC."
+      ],
+      "title_de": "Tiefen, Schmiede und Quests",
+      "changes_de": [
+        "Endlose Tiefen: Nach dem Sturmherz führt eine Treppe neben dem Altar eine Tiefe weiter hinab, jedes Mal auf eine neue Karte. Feinde werden mit jeder Tiefe stärker und die Beute reicher.",
+        "Ab Tiefe 3 kann Abgrund-Ausrüstung (Stufe 28, episch) fallen. Deine tiefste Tiefe wird pro Charakter gespeichert.",
+        "Der Waffenschmied verbessert deine Ausrüstung für Gold von +1 bis +5. Jede Stufe gibt 8% auf die Werte dieses Platzes.",
+        "Jede Spezialisierung hat ihr eigenes Aussehen. Die Schildwache trägt einen Schild, die Assassine einen zweiten Dolch, und Fähigkeitseffekte nehmen die Farbe der Spezialisierung an.",
+        "Questbrett mit Captain Brenna: drei Quests gleichzeitig, mit Gold und EP als Belohnung.",
+        "Tagebuch (J): 26 Erfolge und deine Statistik.",
+        "Minikarte in Dungeons (M), im Mehrspieler mit Gruppenmitgliedern.",
+        "Deine Stufe erscheint unter deinem Namen und unter den Namen anderer Spieler.",
+        "Inventar: Sortiere deine Taschen, sperre Gegenstände, damit sie nie verkauft werden, und verkaufe alle gewöhnlichen oder ungewöhnlichen Gegenstände auf einmal.",
+        "Tipps für neue Spieler (in den Einstellungen abschaltbar).",
+        "Handel ist jetzt sicher: Bricht die Verbindung mitten im Handel ab, geht nichts verloren und nichts wird verdoppelt.",
+        "Mehrspieler braucht 0.4.0 auf jedem PC."
       ]
     },
     {
@@ -566,6 +1004,17 @@
         "Personal loot in multiplayer: everyone gets their own drops, which nobody else can see or take.",
         "Patch notes in the main menu. They open once after every update.",
         "Multiplayer needs 0.3.0 on every PC."
+      ],
+      "title_de": "Mehr Ausrüstung und persönliche Beute",
+      "changes_de": [
+        "85 neue Waffen und Rüstungsteile, insgesamt 147, jedes mit eigenem Symbol.",
+        "Jedes Ausrüstungsteil hat eine Mindeststufe. Du kannst es erst anlegen, wenn du diese Stufe erreichst.",
+        "Händler verkaufen gewöhnliche und ungewöhnliche Ausrüstung und bieten nach jedem geschafften Dungeon besseres Sortiment.",
+        "Neue Händlerin in der Stadt: Nissa Brightstone verkauft Ringe und Amulette.",
+        "Beute passt jetzt zu Dungeon und Schwierigkeit, gute Ausrüstung zu finden dauert also länger. Epische Gegenstände fallen ab Schwer.",
+        "Persönliche Beute im Mehrspieler: Jeder bekommt seine eigene Beute, die niemand sonst sehen oder nehmen kann.",
+        "Patch Notes im Hauptmenü. Sie öffnen sich nach jedem Update einmal.",
+        "Mehrspieler braucht 0.3.0 auf jedem PC."
       ]
     },
     {
@@ -581,6 +1030,17 @@
         "New boss Stormheart: chain lightning that leaps between players, and a lightning wave with gaps to step through.",
         "Trade window shows real item cards and compares stats. All skill texts say exactly what they do.",
         "Multiplayer needs 0.2.0 on every PC."
+      ],
+      "title_de": "Spezialisierungen und die Wandelnden Tiefen",
+      "changes_de": [
+        "Alle 12 Spezialisierungen sind spielbar, drei pro Klasse, jede mit eigenen Fähigkeiten.",
+        "Jede Spezialisierung hat ihre eigene Waffenart: Großschwerter, Äxte, Katanas und Kurzbögen kommen ins Spiel.",
+        "Bestehende Charaktere wählen ihre Spezialisierung einmal.",
+        "Neuer Dungeon Wandelnde Tiefen: bei jedem Betreten ein neuer Aufbau, mit eigenem Basalt-und-Kristall-Aussehen.",
+        "Jeder Lauf durch die Tiefen hat eine Truhe. Manchmal gibt es auch eine seltene Truhe mit besserer Beute.",
+        "Neuer Boss Sturmherz: Kettenblitze, die zwischen Spielern springen, und eine Blitzwelle mit Lücken zum Durchschlüpfen.",
+        "Das Handelsfenster zeigt echte Gegenstandskarten und vergleicht Werte. Alle Fähigkeitstexte sagen genau, was sie tun.",
+        "Mehrspieler braucht 0.2.0 auf jedem PC."
       ]
     },
     {
@@ -592,6 +1052,13 @@
         "New weapons and armour of party members show at once.",
         "Inventory: first click compares, second click equips or drinks. Move items by dragging or with F / gamepad X.",
         "Save & Main Menu now leaves the party. If the host leaves, the party closes."
+      ],
+      "title_de": "Inventar und Gruppe",
+      "changes_de": [
+        "Alle Klassen laufen gleich schnell.",
+        "Neue Waffen und Rüstungen von Gruppenmitgliedern erscheinen sofort.",
+        "Inventar: Erster Klick vergleicht, zweiter Klick legt an oder trinkt. Verschiebe Gegenstände per Ziehen oder mit F / Gamepad X.",
+        "Speichern & Hauptmenü verlässt jetzt die Gruppe. Geht der Host, schließt sich die Gruppe."
       ]
     },
     {
@@ -604,6 +1071,14 @@
         "The host's level now shows correctly for everyone.",
         "The Ranger's Poison upgrade poisons with every shot.",
         "Inside windows the D-pad only moves the selection; B closes."
+      ],
+      "title_de": "Wiederbeleben und Handeln",
+      "changes_de": [
+        "Belebe ein gefallenes Gruppenmitglied wieder: Halte 3 Sekunden lang E / A neben ihm.",
+        "Handle Gegenstände und Gold mit Gruppenmitgliedern (Gruppenfenster > Handeln).",
+        "Die Stufe des Hosts wird jetzt für alle richtig angezeigt.",
+        "Die Gift-Verbesserung des Waldläufers vergiftet mit jedem Schuss.",
+        "In Fenstern bewegt das Steuerkreuz nur die Auswahl; B schließt."
       ]
     },
     {
@@ -615,6 +1090,13 @@
         "B goes back in every menu; shop tabs work with a controller.",
         "The stick always walks at full speed. All classes move equally fast.",
         "Dash cooldown: 6 seconds for Warrior and Mage, 3 seconds for Rogue and Ranger."
+      ],
+      "title_de": "Fähigkeitsverbesserungen",
+      "changes_de": [
+        "Ab Stufe 10 wählst du 1 von 3 Verbesserungen für Fähigkeit 1, ab Stufe 20 für Fähigkeit 2 (Fähigkeitenfenster: U / Steuerkreuz hoch).",
+        "B geht in jedem Menü zurück; Ladenreiter funktionieren mit Controller.",
+        "Der Stick läuft immer mit voller Geschwindigkeit. Alle Klassen bewegen sich gleich schnell.",
+        "Sprint-Abklingzeit: 6 Sekunden für Krieger und Magier, 3 Sekunden für Schurke und Waldläufer."
       ]
     },
     {
@@ -625,6 +1107,12 @@
         "Pick your class, then a specialization.",
         "Every class has a dash (Shift / RB) and a second skill (right click / K / LT).",
         "New settings with Audio, Display, Keyboard & Mouse and Gamepad tabs. Every key can be rebound."
+      ],
+      "title_de": "Erste Spezialisierungen",
+      "changes_de": [
+        "Wähle deine Klasse, dann eine Spezialisierung.",
+        "Jede Klasse hat einen Sprint (Umschalt / RB) und eine zweite Fähigkeit (Rechtsklick / K / LT).",
+        "Neue Einstellungen mit den Reitern Audio, Anzeige, Tastatur & Maus und Gamepad. Jede Taste lässt sich neu belegen."
       ]
     },
     {
@@ -636,6 +1124,13 @@
         "Multiplayer: party members can use potions, shops and the bank.",
         "Short lag spikes no longer reset the boss.",
         "The ready check waits until everyone is back in town. Fallen members watch a living party member."
+      ],
+      "title_de": "Updates im Spiel",
+      "changes_de": [
+        "Das Spiel prüft jetzt auf Updates und installiert sie aus dem Hauptmenü.",
+        "Mehrspieler: Gruppenmitglieder können Tränke, Läden und die Bank nutzen.",
+        "Kurze Lagspitzen setzen den Boss nicht mehr zurück.",
+        "Der Bereitschaftscheck wartet, bis alle zurück in der Stadt sind. Gefallene Mitglieder schauen einem lebenden Gruppenmitglied zu."
       ]
     },
     {
@@ -647,6 +1142,13 @@
         "Town with shops, bank and portal; dungeons Forgotten Crypt, Forest Ruins and Ancient Temple with bosses.",
         "Four difficulties, levels up to 30, loot in four rarities.",
         "Aim with the mouse."
+      ],
+      "title_de": "Erster Build",
+      "changes_de": [
+        "Spiele als Krieger, Schurke oder Magier.",
+        "Stadt mit Läden, Bank und Portal; die Dungeons Vergessene Gruft, Waldruinen und Uralter Tempel mit Bossen.",
+        "Vier Schwierigkeiten, Stufen bis 30, Beute in vier Seltenheiten.",
+        "Ziele mit der Maus."
       ]
     }
   ]
