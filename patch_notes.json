@@ -2,6 +2,18 @@
   "_doc": "Patch notes (main menu > Patch Notes; shown once after each update, scripts/ui/patch_notes_window.gd). Newest first. version = project.godot config/version of that release, date = release day (YYYY-MM-DD), changes = short plain sentences. Add the new entry with every release (RELEASE.md).",
   "entries": [
     {
+      "version": "0.22.1",
+      "date": "2026-11-09",
+      "title": "Ultimates on Hold",
+      "changes": [
+        "Ultimates are switched off for now: no ultimate key, bar or HUD slot. They will come back in a later update. Element reactions stay as they are."
+      ],
+      "title_de": "Ultimates pausiert",
+      "changes_de": [
+        "Ultimates sind vorerst ausgeschaltet: keine Ultimate-Taste, keine Leiste und kein HUD-Feld. Sie kommen in einem späteren Update zurück. Element-Reaktionen bleiben, wie sie sind."
+      ]
+    },
+    {
       "version": "0.22.0",
       "date": "2026-11-09",
       "title": "Bonds and Legends",
