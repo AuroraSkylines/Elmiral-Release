@@ -2,6 +2,44 @@
   "_doc": "Patch notes (main menu > Patch Notes; shown once after each update, scripts/ui/patch_notes_window.gd). Newest first. version = project.godot config/version of that release, date = release day (YYYY-MM-DD), changes = short plain sentences. Add the new entry with every release (RELEASE.md).",
   "entries": [
     {
+      "version": "0.22.0",
+      "date": "2026-11-09",
+      "title": "Bonds and Legends",
+      "changes": [
+        "A story campaign in four chapters, one for each world: talk to the townsfolk (a gold ! shows who has something to say), clear the dungeons the story leads you to and make a decision after each chapter's boss. Your choices change what people say later and what you get. The Journal has a new Story page with the chapters, your decisions and your bonds.",
+        "Bonds with the townsfolk: story choices and finished town quests make friends. At Friendly, Trusted and Kindred a shopkeeper gives you 5, 10 or 15 % off in their shop, and five shopkeepers ask you for a favor with a reward.",
+        "Item sets: six sets of four pieces (head, chest, feet, accessory) for plate, leather and cloth. Two pieces give a bonus, four pieces a stronger one on top. Set pieces drop from bosses, Rare Foes and chests in dungeons from level 25 and in the Shifting Depths.",
+        "Gem sockets at Torvik's Rune Hall: from level 10 every slot can get sockets (two for weapon and chest, one for the others). Six kinds of gems in three tiers drop from bosses, Rare Foes and chests; three gems of one kind combine into a better one. Like the runes, sockets belong to the slot and stay when you change the piece.",
+        "Element reactions: statuses from different hits react with each other. Thermal Shock (cold and fire), Toxic Blast (poison and fire), Rupture (bleed and poison), Wildfire (roots and fire) and Brittle (stun and cold, the foe takes more damage for a while).",
+        "Every specialization has an ultimate (from level 10, key R): a bar fills with the damage you deal, and when it is full you unleash a strong skill of your path. 20 ultimates in all.",
+        "Build presets: save up to three builds (specialization, talents and worn gear) and load them in town. Changing the specialization costs gold in town, and each specialization keeps its own learned talents.",
+        "Companions at Captain Otto: four pets that follow you and carry your drops into your bags, and two mercenaries for solo runs: Sellsword Bram holds the line (foes go for him first), Sister Liora heals you. A mercenary is hired for three runs.",
+        "The weekly world boss: the Star Rift opens above the Star Court (level 26, Nightmare). Each week another great boss waits inside with more life, two phases and helpers. The first defeat of the week brings 4000 gold and two gems, and new titles.",
+        "The Bestiary in the Journal: every foe you defeat is listed with where it lives, its strength and its weak spots. After 25 and 100 defeats a foe is studied and mastered and you deal 3 % and 6 % more damage to it.",
+        "Titles: many achievements now give a title you can carry under your name (click a medal in the Journal).",
+        "Transmog: give your weapon the look of another weapon of the same kind you have collected (Inventory > Looks, 100 gold).",
+        "Town: both fishing piers can be reached now, townsfolk no longer get stuck at the fountain, and a statue of Elmiral with her story stands in the Star Court.",
+        "Multiplayer: both players need version 0.22.0."
+      ],
+      "title_de": "Bande und Legenden",
+      "changes_de": [
+        "Eine Story-Kampagne in vier Kapiteln, eines je Welt: Sprich mit den Stadtleuten (ein goldenes ! zeigt, wer etwas zu sagen hat), schließe die Dungeons ab, zu denen dich die Geschichte führt, und triff nach dem Boss jedes Kapitels eine Entscheidung. Deine Entscheidungen ändern, was die Leute später sagen und was du bekommst. Das Tagebuch hat eine neue Seite Geschichte mit den Kapiteln, deinen Entscheidungen und deinen Bindungen.",
+        "Bindungen mit den Stadtleuten: Entscheidungen in der Geschichte und erledigte Stadtquests bringen Freunde. Bei Freundlich, Vertraut und Verbunden gibt dir ein Händler 5, 10 oder 15 % Rabatt in seinem Laden, und fünf Händler bitten dich um einen Gefallen mit Belohnung.",
+        "Ausrüstungssets: sechs Sets aus vier Teilen (Kopf, Brust, Füße, Schmuck) für Platte, Leder und Stoff. Zwei Teile geben einen Bonus, vier Teile zusätzlich einen stärkeren. Setteile fallen bei Bossen, seltenen Feinden und Truhen in Dungeons ab Stufe 25 und in den Wandelnden Tiefen.",
+        "Edelsteinsockel in Torviks Runenhalle: Ab Stufe 10 kann jeder Platz Sockel bekommen (zwei für Waffe und Brust, einen für die übrigen). Sechs Edelsteinarten in drei Stufen fallen bei Bossen, seltenen Feinden und Truhen; drei Edelsteine einer Art werden zu einem besseren vereint. Wie die Runen gehören Sockel zum Platz und bleiben beim Wechsel des Teils.",
+        "Elementreaktionen: Zustände aus verschiedenen Treffern reagieren miteinander. Thermoschock (Kälte und Feuer), Giftexplosion (Gift und Feuer), Aufriss (Blutung und Gift), Lauffeuer (Wurzeln und Feuer) und Spröde (Betäubung und Kälte, der Feind erleidet eine Weile mehr Schaden).",
+        "Jede Spezialisierung hat ein Ultimate (ab Stufe 10, Taste R): Eine Leiste füllt sich mit deinem Schaden, und wenn sie voll ist, entfesselst du eine starke Fähigkeit deines Pfades. Insgesamt 20 Ultimates.",
+        "Build-Vorlagen: Speichere bis zu drei Builds (Spezialisierung, Talente und getragene Ausrüstung) und lade sie in der Stadt. Ein Wechsel der Spezialisierung kostet in der Stadt Gold, und jede Spezialisierung behält ihre eigenen gelernten Talente.",
+        "Begleiter bei Captain Otto: vier Haustiere, die dir folgen und deine Beute in die Taschen tragen, und zwei Söldner für Sololäufe: Söldner Bram hält die Linie (Feinde gehen zuerst auf ihn los), Schwester Liora heilt dich. Ein Söldner wird für drei Läufe angeheuert.",
+        "Der wöchentliche Weltboss: Über dem Sternenrund öffnet sich der Sternenriss (Stufe 26, Albtraum). Jede Woche wartet darin ein anderer großer Boss mit mehr Leben, zwei Phasen und Helfern. Der erste Sieg der Woche bringt 4000 Gold, zwei Edelsteine und neue Titel.",
+        "Das Bestiarium im Tagebuch: Jeder Feind, den du besiegst, steht dort mit Heimat, Stärke und Schwächen. Nach 25 und 100 Siegen ist ein Feind erforscht und gemeistert, und du fügst ihm 3 % und 6 % mehr Schaden zu.",
+        "Titel: Viele Erfolge geben jetzt einen Titel, den du unter deinem Namen tragen kannst (klicke im Tagebuch auf eine Medaille).",
+        "Transmog: Gib deiner Waffe das Aussehen einer anderen gesammelten Waffe derselben Art (Inventar > Aussehen, 100 Gold).",
+        "Stadt: Beide Angelstege sind jetzt erreichbar, Bewohner bleiben nicht mehr am Brunnen hängen, und im Sternenrund steht eine Statue von Elmiral mit ihrer Geschichte.",
+        "Multiplayer: Beide Spieler brauchen Version 0.22.0."
+      ]
+    },
+    {
       "version": "0.21.0",
       "date": "2026-11-09",
       "title": "Gloamreach",
