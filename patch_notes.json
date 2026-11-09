@@ -2,6 +2,36 @@
   "_doc": "Patch notes (main menu > Patch Notes; shown once after each update, scripts/ui/patch_notes_window.gd). Newest first. version = project.godot config/version of that release, date = release day (YYYY-MM-DD), changes = short plain sentences. Add the new entry with every release (RELEASE.md).",
   "entries": [
     {
+      "version": "0.21.0",
+      "date": "2026-11-09",
+      "title": "Gloamreach",
+      "changes": [
+        "A fourth world: Gloamreach, a land of endless twilight. Its gate on the Portal Square opens at level 26 once you have cleared the Aurora Spire. Four dungeons wait behind it: the Moonlit Orchard (26), the Hollow Court (27), the Dreamsink Marsh (28) and the Eclipse Throne (29), each also on Nightmare (30).",
+        "Frostmere grows to four dungeons: the Frostfang Caverns (level 23) with Skaldrith, the White Wyrm, and the Aurora Spire (level 24) with the Aurora Archon, both also on Nightmare (30). Two more hand-drawn bosses, 11 new foes and 2 new rare foes in snow and aurora light.",
+        "The Portal Square is now the Star Court: a big round court with the four gates in world order (Lantern Cross, Emberfall, Frostmere, Gloamreach) on an arc, the Abyss Gate in the middle, a stele pair for every world and a hedge ring. You arrive in the court. The duel ring moved a little to the west.",
+        "Four new hand-drawn bosses: Grimbough the scarecrow giant with his harvest scythe, the Thorn Sovereign, the Dreamsink Hydra and the Eclipse Queen. 29 new foes and 4 new rare foes, and Gloamreach has its own music: a twilight waltz for the dungeons and \"Eclipse\" for the boss fights.",
+        "Three new dungeon affixes: Frenzied (foes below 35% life hit 30% harder, not bosses), Bolstering (a falling foe makes the foes near it stronger, up to 5 times) and Haunted (fallen foes rise again as a weak shade worth nothing).",
+        "Day and night in Lantern Cross: the town goes from day to dusk to night and back every 20 minutes. At night the lamps shine brighter and more fireflies come out.",
+        "The town grows with you: traders, an Emberfall memorial, a stable for travellers from Frostmere and twilight blossoms appear as you clear the last dungeon of each world.",
+        "Fishing: press E at the end of a pier, wait for a bite and stop the marker in the green zone. Minnows and trout by day, the glowing Moonfin only at night, and the Golden Carp for a perfect catch. Merchants buy every fish.",
+        "Side quests: Sister Ilse, Captain Mara, Tobin, Garrick, Old Bram and Wenna now ask for your help. Talk to them (E), accept their quest and come back for gold, XP and potions.",
+        "Multiplayer: both players need 0.21.0 (protocol 27)."
+      ],
+      "title_de": "Gloamreach",
+      "changes_de": [
+        "Eine vierte Welt: Gloamreach, ein Land ewiger Dämmerung. Sein Tor auf dem Portalplatz öffnet sich ab Level 26, sobald du den Polarlichtturm abgeschlossen hast. Dahinter warten vier Dungeons: der Mondscheingarten (26), der Hohle Hof (27), der Traumsumpf (28) und der Finsternisthron (29), jeweils auch auf Albtraum (30).",
+        "Frostmere wächst auf vier Dungeons: die Frostfanghöhlen (Level 23) mit Skaldrith, dem Weißen Wyrm, und der Polarlichtturm (Level 24) mit dem Polarlicht-Archon, beide auch auf Albtraum (30). Zwei weitere handgezeichnete Bosse, 11 neue Gegner und 2 neue seltene Gegner in Schnee und Polarlicht.",
+        "Der Portalplatz ist jetzt das Sternenrund: ein großer runder Hof mit den vier Toren in Weltreihenfolge (Lantern Cross, Emberfall, Frostmere, Gloamreach) im Bogen, dem Abgrundtor in der Mitte, einem Stelenpaar für jede Welt und einem Heckenring. Du kommst im Hof an. Der Duellring ist ein Stück nach Westen gerückt.",
+        "Vier neue, von Hand gezeichnete Bosse: Grimbough, die riesige Vogelscheuche mit der Erntesense, der Dornenherrscher, die Traumsumpf-Hydra und die Finsterniskönigin. 29 neue Gegner und 4 neue seltene Gegner, und Gloamreach hat eigene Musik: einen Dämmerungswalzer für die Dungeons und „Eclipse“ für die Bosskämpfe.",
+        "Drei neue Dungeon-Affixe: Rasend (Feinde unter 35% Leben treffen 30% härter, keine Bosse), Stärkend (ein fallender Feind macht Feinde in seiner Nähe stärker, bis zu 5-mal) und Heimgesucht (gefallene Feinde erheben sich als schwacher Schatten, der nichts wert ist).",
+        "Tag und Nacht in Lantern Cross: Alle 20 Minuten wird es in der Stadt Tag, Abend, Nacht und wieder Tag. Nachts leuchten die Lampen heller und mehr Glühwürmchen kommen heraus.",
+        "Die Stadt wächst mit dir: Händler, ein Emberfall-Denkmal, ein Stall für Reisende aus Frostmere und Zwielichtblüten erscheinen, wenn du den letzten Dungeon jeder Welt abschließt.",
+        "Angeln: Drücke E am Ende eines Stegs, warte auf einen Biss und halte den Zeiger im grünen Bereich an. Elritzen und Forellen am Tag, der leuchtende Mondflosser nur nachts und der Goldkarpfen für einen perfekten Fang. Händler kaufen jeden Fisch.",
+        "Nebenquests: Schwester Ilse, Captain Mara, Tobin, Garrick, der alte Bram und Wenna bitten jetzt um deine Hilfe. Sprich mit ihnen (E), nimm ihre Quest an und komm für Gold, EP und Tränke zurück.",
+        "Mehrspieler: Beide Spieler brauchen 0.21.0 (Protokoll 27)."
+      ]
+    },
+    {
       "version": "0.20.0",
       "date": "2026-11-08",
       "title": "Frostmere",
