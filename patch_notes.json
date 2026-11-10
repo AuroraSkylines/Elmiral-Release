@@ -2,6 +2,22 @@
   "_doc": "Patch notes (main menu > Patch Notes; shown once after each update, scripts/ui/patch_notes_window.gd). Newest first. version = project.godot config/version of that release, date = release day (YYYY-MM-DD), changes = short plain sentences. Add the new entry with every release (RELEASE.md).",
   "entries": [
     {
+      "version": "0.22.2",
+      "date": "2026-11-10",
+      "title": "The Companion Keeper",
+      "changes": [
+        "Wren Tallowmere, the companion keeper, has her own lodge east of the Star Court. She sells the pets and hires out the mercenaries.",
+        "The companion window explains what pets and mercenaries do and shows from which level you can get each one.",
+        "Town lights no longer vanish in square blocks or flicker while you walk at night."
+      ],
+      "title_de": "Die Begleiterhüterin",
+      "changes_de": [
+        "Wren Tallowmere, die Begleiterhüterin, hat ihre eigene Hütte östlich vom Sternenrund. Sie verkauft die Haustiere und vermittelt die Söldner.",
+        "Das Begleiter-Fenster erklärt, was Haustiere und Söldner tun, und zeigt, ab welcher Stufe du jeden bekommst.",
+        "Die Lichter in der Stadt verschwinden nachts nicht mehr in eckigen Blöcken und flackern nicht mehr beim Laufen."
+      ]
+    },
+    {
       "version": "0.22.1",
       "date": "2026-11-09",
       "title": "Ultimates on Hold",

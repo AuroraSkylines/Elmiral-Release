@@ -1,7 +1,7 @@
 {
   "format": 1,
   "game": {
-    "version": "0.22.1",
+    "version": "0.22.2",
     "files": [
       {
         "path": "Elmiral.exe",
@@ -13,11 +13,11 @@
       },
       {
         "path": "Elmiral.pck",
-        "size": 39336048,
-        "sha256": "c489e70601e865bf370220097b64d1716ef22189bf65dfb6395e05391fc78a58",
-        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/game/0.22.1/Elmiral.pck.gz",
-        "packed_size": 33775840,
-        "packed_sha256": "fc76f6caaf68bcd2b4f06f0ebe7330556b44966736896bf938558ba41ea6544e"
+        "size": 39348852,
+        "sha256": "bb72cd6eb7e31c25641e74c3889f6d88036c1cee24d2a407a13f999f8b9422f4",
+        "url": "https://raw.githubusercontent.com/AuroraSkylines/Elmiral-Release/main/game/0.22.2/Elmiral.pck.gz",
+        "packed_size": 33785581,
+        "packed_sha256": "c6c35c0d20fd0d7264b4ed3834bf30b8359a0d428b8f508f4f62cfd0a906167f"
       },
       {
         "path": "libgodotsteam.windows.template_release.x86_64.dll",
